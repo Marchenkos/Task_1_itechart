@@ -1,0 +1,58 @@
+.header{
+background: white;
+    padding: 1em 0.5em 0.5em 1.2em;
+    position: fixed;
+
+}
+.navig_menu{
+    display:block;
+    max-width: 50%;
+    position: relative;
+    float: right;
+    font-size: 1em;
+    text-align: right;
+ 
+}
+
+.icon__button-menu{
+    border: none;
+    background: white;  
+    max-width: 20%;
+}
+
+.icon__button-menu img{
+    max-width: 100%;
+    height: auto;
+}
+
+li{
+    border-bottom: 1px solid #DADADA;
+}
+.menu {
+    display: none;
+   background:white;
+   
+}
+.menu a {
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color:grey;
+    display: block;
+}
+.navig_menu:hover .menu {
+    display: block;
+}
+
+.logo{
+    display: inline-block;
+   font-size: 1.3em;
+}
+
+.smth_under_menu{
+    display: block;
+
+    background:#fbebea;
+    width: 100%;
+}
+
