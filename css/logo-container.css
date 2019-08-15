@@ -1,0 +1,10 @@
+.logo-container{
+    display: flex;
+    direction: row;
+}
+
+.logo{
+    display: block;
+   font-size: 1.3em;
+}
+

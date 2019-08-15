@@ -1,0 +1,63 @@
+body{
+    background:#fbebea;
+    font-family: Circe-Regular;
+}
+
+.under-header-container{
+    height: auto;
+
+
+}
+
+.main_cake{
+
+    background-image: url(img/cake_main3.png);
+    background-repeat: no-repeat;
+    background-position: right 55% bottom 210px;
+
+}
+
+.main_cake_text{
+
+    padding-top: 12em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.main_cake_text__title{
+    font-family: PlayfairDisplay-Bold;
+    letter-spacing: 5px;
+font-size:4em;
+font-weight: bold;
+color:#222222;
+width: 65%;
+margin: auto;
+text-align: center;
+}
+.main_cake_text__signature{
+    font-family: Intro Script;
+    margin-top: 0.5em;
+    font-size: 2em;
+    color: #313131;
+}
+.list{
+    margin-top: 1em;
+}
+table{
+  
+    font-size: 1.5em;
+    width: 75%;
+   
+    margin: auto;
+}
+table td{
+    vertical-align: top;
+    padding-left:0.2em;
+
+    
+}
+
+table tr:first-child{
+    width: 10px;
+    padding: 0.5em;
+}
+

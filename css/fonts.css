@@ -1,0 +1,13 @@
+@font-face {
+    font-family: PlayfairDisplay-Bold; /* Имя шрифта */
+    src: url(fonts/PlayfairDisplay-Bold.otf);/* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: Intro Script; /* Имя шрифта */
+    src: url(fonts/16216.otf); 
+   }
+ @font-face {
+    font-family: Circe-Regular; /* Имя шрифта */
+    src: url(fonts/Circe-Regular.ttf); 
+   }
