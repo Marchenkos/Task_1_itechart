@@ -1,45 +1,6 @@
 .navigation-container{
     width: 80%;
-}
-.navigation-container__menu-box{
-    display:block;
-    font-size: 1em;
-    text-align: center;
- 
+    float: left;
 }
 
-li{
-    border-bottom: 1px solid #DADADA;
-}
-.menu {
-display: none;
-   background:white;
-   margin: 1em;
-   
-}
-.menu a {
-    padding: 20px;
-    text-decoration: none;
-    cursor: pointer;
-    color:grey;
-    display: block;
-}
-.navigation-container__menu-box:hover .menu {
-    display: block;
-}
 
-.navigation-container__icon{
-    width: 10%;
-    margin-left: auto;
-}
-.navigation-container__icon__button-menu{
-    border: none;
-    background: white;  
-    
-  
-}
-
-.navigation-container__icon__button-menu img{
-    max-width: 100%;
-    height: auto;
-}

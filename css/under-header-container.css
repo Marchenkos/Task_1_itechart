@@ -13,7 +13,7 @@ body{
 
     background-image: url(img/cake_main3.png);
     background-repeat: no-repeat;
-    background-position: right 55% bottom 210px;
+    background-position: right 55% bottom 170px;
 
 }
 
@@ -26,8 +26,8 @@ body{
 .main_cake_text__title{
     font-family: PlayfairDisplay-Bold;
     letter-spacing: 5px;
-font-size:4em;
-font-weight: bold;
+font-size:5em;
+
 color:#222222;
 width: 65%;
 margin: auto;
@@ -41,6 +41,7 @@ text-align: center;
 }
 .list{
     margin-top: 1em;
+
 }
 table{
   

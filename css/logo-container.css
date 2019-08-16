@@ -1,10 +1,9 @@
 .logo-container{
-    display: flex;
-    direction: row;
+    margin-right: 10px;
 }
-
 .logo{
     display: block;
+
    font-size: 1.3em;
 }
 

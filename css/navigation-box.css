@@ -1,0 +1,16 @@
+.navigation-box{
+    display:block;
+    font-size: 1em; 
+}
+
+.navigation-box__button{
+    border: none;
+    background: white;
+    float: left;
+   position: relative;
+   left: 95%;
+}
+
+.navigation-box:hover .navigation-menu{
+display: block;
+}
