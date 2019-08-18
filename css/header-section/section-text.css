@@ -1,0 +1,30 @@
+.section-text{
+
+    background-image: url(../img/cake_main3.png);
+    background-repeat: no-repeat;
+    background-position: left -200px bottom 140px;
+    padding-top: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
+.section-text__caption{
+    font-family: PlayfairDisplay-Bold;
+    letter-spacing: 5px;
+    font-size: 68px;
+
+    color:#222222;
+
+    text-align: center;
+}
+.section-text__signature{
+    font-family: Intro Script;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #313131;
+}
+
+

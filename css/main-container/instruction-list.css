@@ -1,0 +1,20 @@
+.instruction-list{
+    margin:0px 20px;
+}
+.item__number{
+    font-family: PlayfairDisplay-Bold;
+    font-size:35px;
+    float: left;
+    margin:0 20px 40px;
+}
+.instuction-list__item{
+    margin-bottom: 20px;
+}
+.item__description{
+    width: 90%;
+  
+}
+.item__description--bold{
+    margin: 5px 0;
+    font-weight: bold;
+}

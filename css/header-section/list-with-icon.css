@@ -1,0 +1,22 @@
+.list-with-icon{
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction:column;
+  
+}
+.list-with-icon__item{
+    display: block;
+    margin-top: 10px;
+}
+.item__icon{
+    float: left;
+    
+    margin:0 15px;
+}
+.item__signature{
+color: rgb(29, 29, 29);
+ margin:10px 0;
+}
+
+
