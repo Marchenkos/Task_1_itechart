@@ -1,0 +1,20 @@
+.navigation-menu--footer{
+    display:block;
+    position: static;
+    text-align: left;
+}
+.menu--footer{
+    background: none;
+    
+}
+
+.menu__item--footer{
+    border:none;
+}
+.menu__item-link--footer {
+    padding: 9px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+    display: block;
+}

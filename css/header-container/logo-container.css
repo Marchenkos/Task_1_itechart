@@ -1,9 +1,11 @@
 .logo-container{
     margin-right: 10px;
+    font-family: PlayfairDisplay-Bold;
 }
 .logo{
     display: block;
 
    font-size: 1.3em;
 }
+
 

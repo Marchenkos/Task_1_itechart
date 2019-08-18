@@ -1,0 +1,17 @@
+.footer-contsiner{
+    margin-top:30px;
+    padding-top: 30px;
+    background: #999999;
+}
+
+.footer-contsiner__line{
+    color: #272727;
+    background: #272727;
+    border: none;
+    width: 90%;
+}
+.footer-contsiner__copy{
+    margin: 5px 15px;
+    color:#b1b0b0;
+    
+}
