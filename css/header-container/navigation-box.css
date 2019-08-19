@@ -14,3 +14,14 @@
 .navigation-box:hover .navigation-menu{
 display: block;
 }
+
+@media (min-width: 768px) and (max-width: 1281px){
+    .navigation-box{
+        display:block;
+        font-size: 1em; 
+    }
+    
+    .navigation-box__button{
+        display: none;
+    }
+}

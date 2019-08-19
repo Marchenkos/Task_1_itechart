@@ -3,3 +3,11 @@
     padding: 15px;
     display: flex;
 }
+
+@media (min-width: 768px) and (max-width: 1281px){
+    .header-container{
+        background:none;
+        padding: 35px;
+    
+    }
+}

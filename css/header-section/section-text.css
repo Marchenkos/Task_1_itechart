@@ -1,9 +1,10 @@
 .section-text{
 
-    background-image: url(../img/cake_main3.png);
+    background-image: url(../img/main-cake.png);
     background-repeat: no-repeat;
-    background-position: left -200px bottom 140px;
-    padding-top: 180px;
+    background-size: 400px;
+    background-position: left -15px bottom 110px;
+    padding-top: 130px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 25px;
@@ -14,8 +15,8 @@
 .section-text__caption{
     font-family: PlayfairDisplay-Bold;
     letter-spacing: 5px;
-    font-size: 68px;
-
+    font-size: 50px;
+margin:0 30px;
     color:#222222;
 
     text-align: center;

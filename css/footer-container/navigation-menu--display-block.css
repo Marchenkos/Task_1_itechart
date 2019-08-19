@@ -1,11 +1,10 @@
-.navigation-menu--footer{
+.navigation-menu--display-block{
     display:block;
     position: static;
     text-align: left;
 }
 .menu--footer{
     background: none;
-    
 }
 
 .menu__item--footer{
