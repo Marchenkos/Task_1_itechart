@@ -3,6 +3,19 @@
     padding: 15px;
     display: flex;
 }
+.header-container__navigation{
+    width: 80%;
+    float: left;
+}
+.header-container__logo{
+    margin-right: 10px;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 18px;
+}
+
+.header-container__phone{
+    display: none;
+}
 
 @media (min-width: 768px) and (max-width: 1281px){
     .header-container{

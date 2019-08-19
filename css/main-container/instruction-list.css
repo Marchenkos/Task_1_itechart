@@ -1,5 +1,7 @@
 .instruction-list{
     margin:0px 20px;
+    text-align: left;
+    padding-top: 10px;
 }
 .item__number{
     font-family: PlayfairDisplay-Bold;

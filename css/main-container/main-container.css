@@ -1,0 +1,20 @@
+.main-container__title{
+    margin: 30px 0;
+    text-align: center;
+}
+.main-container__catalog{
+    padding: 10px 20px;
+  
+}
+.main-container__inform{
+   
+        background:  #e4353c;
+        background-image: url(../img/order.jpg);
+        background-position: top 390px left 25px;
+        padding-bottom: 270px;
+        background-repeat: no-repeat;
+        color:white;
+        padding-top:1px;
+        text-align: center;
+
+}

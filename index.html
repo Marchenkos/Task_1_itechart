@@ -14,22 +14,26 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
 
         <link rel="stylesheet" type="text/css" href="css/header-container/header-container.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container/logo-container.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container/navigation-container.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container/navigation-menu.css" />
+        <link rel="stylesheet" type="text/css" href="css/header-container/logo.css" />
         <link rel="stylesheet" type="text/css" href="css/header-container/navigation-box.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container/phone-container.css" />
+        <link rel="stylesheet" type="text/css" href="css/header-container/phone-number.css" />
 
-        <link rel="stylesheet" type="text/css" href="css/header-section/section-text.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-section/list-with-icon.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-section/selection-button.css" />
+        <link rel="stylesheet" type="text/css" href="css/hearer-section/hearer-section.css" />
+        <link rel="stylesheet" type="text/css" href="css/hearer-section/list-with-icon.css" />
+        <link rel="stylesheet" type="text/css" href="css/hearer-section/selection-button.css" />
 
 
-
+        <link rel="stylesheet" type="text/css" href="css/main-container/article-title.css" />
+        <link rel="stylesheet" type="text/css" href="css/main-container/main-container.css" />
+        <link rel="stylesheet" type="text/css" href="css/main-container/grid.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/catalog-section.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-container/catalog-cakes.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-container/order-information.css" />
+
+
+
+        <link rel="stylesheet" type="text/css" href="css/main-container/inform-title.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/instruction-list.css" />
+        <link rel="stylesheet" type="text/css" href="css/main-container/cake-element.css" />
+
         <link rel="stylesheet" type="text/css" href="css/main-container/contact-section.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/callback-form.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/section-with-icons.css" />
@@ -48,179 +52,196 @@
 
     </head>
     <body>
-<header class="header-container">
+
+        <header class="header-container">
     
-    <div class="logo-container">
-        <div class="logo">
-             Cakes
-        </div>  
-    </div>
+            <div class="header-container__logo">
+                <div class="logo">
+                    Cakes
+                </div>  
+            </div>
 
-    <div class="navigation-container">
+            <div class="header-container__navigation">
 
-        <nav class="navigation-box">
+                <nav class="navigation-box">
 
-            <button class="navigation-box__button fa fa-bars"></button>
-            
-            <div class="navigation-menu">
-                    <ul class="menu">
+                    <button class="navigation-box__button fa fa-bars"></button>
+                
+                    <div class="navigation-box__navigation-menu">
+                        <ul class="menu">
                             <li class="menu__item"><a class="menu__item-link" href="#">Наши торты</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">Индивидуальный заказ</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">Отзывы</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">О нас</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">Как заказать</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">Контакты</a></li>        
-                    </ul>  
-            </div>                      
-                   
-            
-        </nav>  
-
-    </div>
-
-    <div class="phone-container">
-       <div class="phone-number">
-       </div> 
-    </div>
-
-</header>
-
-
-<div class="header-section-container">
-    <section class="header-section">
-            <div class="section-text">
-                 <div class="section-text__caption">Торты на заказ</div>
-                 <div class="section-text__signature">Ручная работа</div>
+                        </ul>  
+                    </div>                      
+                </nav>  
             </div>
 
-            <div class="list-with-icon">
-               <div class="list-with-icon__item">
-                <img class="item__icon" src="css/img/icon1.png">
-                <div class="item__signature">Натуральные ингредиенты</div>
-               </div>
-               <div class="list-with-icon__item">
-                    <img class="item__icon" src="css/img/icon2.png">
-                    <div class="item__signature">Доставка бесплатно при заказе от 2000 рублей</div>
-                </div>
+            <div class="header-container__phone">
+                <a  href="tel:+79068999296" class="phone-number">
+                    +7 906 899 92 96
+                </a> 
             </div>
 
-                <button class="selection-button">ВЫБРАТЬ ТОРТ</button>
-    </section>
-</div>
+        </header>
 
-<div class="main-contsiner">
-    <section class="catalog-section">
 
-            <div class="section-text__caption section-text__caption--secondary">Наши торты</div>
-            <article class="grid catalog-cakes">
-                <!-- Проблема с z-index:( и как лучше вставить картинку background/img -->
-                <div class="col-2-3 catalog-cakes__item">
-                    <div class="item__picture-1"> 
-                        <div class="item__signature item__signature--font-size">Классические <p class="item__mini-signature">24 вида</p></div>
-                    </div>
+        <div class="hearer-section">
+                <h1 class="hearer-section__caption">Торты на заказ</h1>
+                <h3 class="hearer-section__signature">Ручная работа</h3>
+
+                <div class="header-section__list">
+                
+                    <section class="list-with-icon">
+                        <div class="list-with-icon__item">
+                            <img class="item__icon" src="css/img/icon1.png">
+                            <div class="item__signature">Натуральные ингредиенты</div>
+                        </div>
+                        <div class="list-with-icon__item">
+                                <img class="item__icon" src="css/img/icon2.png">
+                                <div class="item__signature">Доставка бесплатно при заказе от 2000 рублей</div>
+                        </div>
+                    </section>
+
                 </div>
-
-                <div class="col-1-3 catalog-cakes__item catalog-cakes__item--double">
-                    <div class="item__picture-2"> 
-                        <div class="item__signature item__signature--font-size">Муссовые <p class="item__mini-signature">12 видов</p></div>
-                    </div>
-                    <div class="item__picture-3"> 
-                        <div class="item__signature item__signature--font-size">Свадебные <p class="item__mini-signature">20 видов</p></div>
-                    </div>
+                <div class="hearer-section__button">
+                    <button class="selection-button">ВЫБРАТЬ ТОРТ</button>
                 </div>
-
-                <div class="col-1-3 catalog-cakes__item catalog-cakes__item--double">
-                    <div class="item__picture-4"> 
-                        <div class="item__signature item__signature--font-size">Мужчинам <p class="item__mini-signature">12 видов</p></div>
-                    </div>
-                    <div class="item__picture-5"> 
-                        <div class="item__signature item__signature--font-size">Женщинам <p class="item__mini-signature">16 видов</p></div>
-                    </div>
-                </div>
-
-                <div class="col-2-3 catalog-cakes__item">
-                    <div class="item__picture-6"> 
-                        <div class="item__signature item__signature--font-size">Детские <p class="item__mini-signature">18 вида</p></div>
-                    </div>
-                </div>
-            </article>
-
-    </section>
-
-    <section class="inform-section">
-        <article class="order-information">
-                <div class="section-text__caption section-text__caption--color">Как заказать</div>
-
-                <div class="instruction-list">
-                    <div class="instuction-list__item">
-                        <div class="item__number">1</div>
-                        <div class="item__description"><p class="item__description--bold">Срок заказа </p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</div>
-                    </div>
-                        <div class="instuction-list__item">
-                            <div class="item__number">2</div>
-                            <div class="item__description"><p class="item__description--bold">Доставка по городу</p>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</div>
-                    </div>
-                    <div class="instuction-list__item">
-                        <div class="instuction-list__item"><div class="item__number">3</div>
-                        <div class="item__description"><p class="item__description--bold">Доставка за городом</p>Доставка за пределами города рассчитывается индивидуально.</div>
-                    </div>
-                </div>
-
-                <img src="css/img/order.jpg">
-        </article>
-    </section>
-    
-    <section class="contact-section">
-        <article class="contact-form">
-                <div class="section-text-title">
-                        <div class="section-text__caption section-text__caption--secondary">Контакты</div>
-                        <div class="section-text__signature">Остались вопросы?</div>
-                        <div class="item__signature">Заполните форму ниже и наш кондитер свяжется с Вами</div>
-                   </div>
-                <form class="callback-form">
-                    <input class="callback-form__item" type="text" placeholder="Ваше имя">
-                    <input class="callback-form__item" type="email" placeholder="Email адрес">
-                    <textarea class="callback-form__item callback-form__item--highter" placeholder="Ваш вопрос"></textarea>
-                </form>
-
-                <button class="selection-button selection-button--size">Отправить</button>
-
-                <div class="section-text-title">
-                    <div class="item__signature--black">Или позвоните по телефону <p>+7 906 899 92 96</p></div>
-                    <div class="item__signature--black">Наша почта: bakerybypavel@mail.ru </div>
-                    <div class="item__signature--black">Мы в соц сетях:</div>
-                </div>
-                <div class="section-with-icons">
-                    <img src="css/img/vk.png">
-                    <img src="css/img/insta.png">
-                </div>
-        </article>
-    </section>
-</div>
-<footer class="footer-contsiner">
-        <div class="logo-container logo-container--footer">
-                <div class="logo">
-                     Cakes
-                </div>  
         </div>
 
-        <div class="navigation-menu navigation-menu--display-block">
-                <ul class="menu menu--footer">
-                        <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Наши торты</a></li>
-                        <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Индивидуальный заказ</a></li>
-                        <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Отзывы</a></li>
-                        <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">О нас</a></li>
-                        <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Как заказать</a></li>
-                        <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Контакты</a></li>        
-                </ul>  
-        </div>     
-        <div class="phone-container phone-container--footer">
-                <div class="phone-number">
-                        +7 906 899 92 96
-                </div> 
-             </div>
-             <hr class="footer-contsiner__line"/>
-             <div class="footer-contsiner__copy"> &#169 2018 Cakes</div>
-</footer>
+        <div class="main-container">
+
+            <div class="main-container__title">
+                <h2 class="article-title">Наши торты</h2>
+            </div>
+
+            <article class="main-container__catalog">
+
+                    <div class="grid">
+
+                        <div class="grid__col-8-12">
+                                <div class="cake-element">
+                                        <img class="cake-element__picture" src="css/img/catalog-cake/cake-1.jpg">
+                                        <h4 class="cake-element__title">Мужчинам <p class="cake-element__mini-title">12 видов</p></h4>
+                                    </div>
+                        </div>
+                        <div class="grid__col-4-12">
+                                <div class="cake-element cake-element--double">
+                                    <img class="cake-element__picture" src="css/img/catalog-cake/with white/cake-3.jpg">
+                                    <h4 class="cake-element__title">Муссовые <p class="cake-element__mini-title">12 видов</p></h4>
+                                </div>
+    
+                                <div class="cake-element cake-element--double">
+                                    <img class="cake-element__picture" src="css/img/catalog-cake/with white/cake-4.jpg">
+                                    <h4 class="cake-element__title">Свадебные <p class="cake-element__mini-title">16 видов</p></h4>
+                                </div>
+                            </div>
+
+                        <div class="grid__col-4-12">
+                            <div class="cake-element cake-element--double">
+                                <img class="cake-element__picture" src="css/img/catalog-cake/with white/cake-5.jpg">
+                                <h4 class="cake-element__title">Мужчинам <p class="cake-element__mini-title">12 видов</p></h4>
+                            </div>
+
+                            <div class="cake-element cake-element--double">
+                                <img class="cake-element__picture" src="css/img/catalog-cake/with white/cake-6.jpg">
+                                <h4 class="cake-element__title">Женщинам <p class="cake-element__mini-title">16 видов</p></h4>
+                            </div>
+                        </div>
+
+                        <div class="grid__col-8-12">
+                            <div class="cake-element">
+                                <img class="cake-element__picture" src="css/img/catalog-cake/cake-1-1.jpg">
+                                <h4 class="cake-element__title">Детские <p class="cake-element__mini-title">24 вида</p></h4>
+                            </div>
+                        </div>
+                    
+                    </div>
+            </article>
+    
+
+            <section class="main-container__inform">
+
+                <div class="inform-title">
+                    <h2 class="article-title article-title--color">Как заказать</h2>
+                </div>
+
+                <div class="instruction-list">
+
+                    <div class="instuction-list__item">
+                        <h1 class="item__number">1</h1>
+                        <div class="item__description"><p class="item__description--bold">Срок заказа </p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</div>
+                    </div>
+
+                    <div class="instuction-list__item">
+                        <h1 class="item__number">2</h1>
+                        <div class="item__description"><p class="item__description--bold">Доставка по городу</p>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</div>
+                    </div>
+
+                    <div class="instuction-list__item">
+                        <h1 class="item__number">3</h1>
+                        <div class="item__description"><p class="item__description--bold">Доставка за городом</p>Доставка за пределами города рассчитывается индивидуально.</div>
+                    </div>
+
+                </div>
+            </section>
+    
+            <section class="main-container__contact">
+
+                <article class="contact-form">
+                        <div class="section-text-title">
+                                <div class="section-text__caption section-text__caption--secondary">Контакты</div>
+                                <div class="section-text__signature">Остались вопросы?</div>
+                                <div class="item__signature">Заполните форму ниже и наш кондитер свяжется с Вами</div>
+                        </div>
+                        <form class="callback-form">
+                            <input class="callback-form__item" type="text" placeholder="Ваше имя">
+                            <input class="callback-form__item" type="email" placeholder="Email адрес">
+                            <textarea class="callback-form__item callback-form__item--highter" placeholder="Ваш вопрос"></textarea>
+                        </form>
+
+                        <button class="selection-button selection-button--size">Отправить</button>
+
+                        <div class="section-text-title">
+                            <div class="item__signature--black">Или позвоните по телефону <p>+7 906 899 92 96</p></div>
+                            <div class="item__signature--black">Наша почта: bakerybypavel@mail.ru </div>
+                            <div class="item__signature--black">Мы в соц сетях:</div>
+                        </div>
+                        <div class="section-with-icons">
+                            <img src="css/img/vk.png">
+                            <img src="css/img/insta.png">
+                        </div>
+                </article>
+            </section>
+        </div>
+
+        <footer class="footer-contsiner">
+                <div class="logo-container logo-container--footer">
+                        <div class="logo">
+                            Cakes
+                        </div>  
+                </div>
+
+                <div class="navigation-menu navigation-menu--display-block">
+                        <ul class="menu menu--footer">
+                                <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Наши торты</a></li>
+                                <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Индивидуальный заказ</a></li>
+                                <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Отзывы</a></li>
+                                <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">О нас</a></li>
+                                <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Как заказать</a></li>
+                                <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Контакты</a></li>        
+                        </ul>  
+                </div>     
+                <div class="phone-container phone-container--footer">
+                        <div class="phone-number">
+                                +7 906 899 92 96
+                        </div> 
+                    </div>
+                    <hr class="footer-contsiner__line"/>
+                    <div class="footer-contsiner__copy"> &#169 2018 Cakes</div>
+        </footer>
     </body>
 </html>

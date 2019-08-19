@@ -1,8 +1,10 @@
 .list-with-icon{
-    margin: 10px;
-    font-size: 20px;
+
+    font-size: 19px;
     display: flex;
     flex-direction:column;
+    text-align: left;
+
   
 }
 .list-with-icon__item{
@@ -11,12 +13,13 @@
 }
 .item__icon{
     float: left;
-    
-    margin:0 15px;
+    margin-right: 10px;
+ 
 }
 .item__signature{
 color: rgb(29, 29, 29);
- margin:10px 0;
+ margin-top:5px ;
+
 }
 
 

@@ -1,0 +1,44 @@
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .cake-element{
+        height: 150px;
+    }
+}
+.cake-element{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+    height: 630px; 
+    border: 1px solid pink;
+    background: white;
+    box-sizing: border-box;
+}
+.cake-element--double{
+    height: 250px;
+}
+.item__picture--position-top{
+    top:150px;
+}
+
+
+.cake-element__title{
+    font-size: 17px;
+    margin-left: 20px;
+margin-top:10px;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+}
+.cake-element__mini-title{
+    font-size: 15px;
+    margin-top: 5px;
+    color:rgb(95, 95, 95);
+}
+.cake-element__picture{
+max-width:100%;
+position: relative;
+z-index: 2;
+}
+

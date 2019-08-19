@@ -1,0 +1,26 @@
+.grid{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+[class^='grid__col-']{
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+   
+    div[class^='grid__col-']{
+     
+        flex-basis: 100%;
+    }
+}
+.grid__col-1-1{
+    flex-basis: 100%;
+}
+.grid__col-8-12{
+    flex-basis: 66.66%;
+}
+.grid__col-4-12{
+    flex-basis: 33.33%;
+}

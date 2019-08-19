@@ -1,0 +1,32 @@
+.hearer-section{
+
+    background-image: url(../img/main-cake.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: left -10px bottom 360px;
+    padding: 120px 20px 25px;
+    
+    text-align: center;
+
+}
+
+.hearer-section__caption{
+    font-family: PlayfairDisplay-Bold;
+    letter-spacing: 5px;
+    font-size: 45px;
+    width: 70%;
+    margin:0 auto;
+    color:#222222;
+
+}
+.hearer-section__signature{
+    font-family: Intro Script;
+    margin:20px auto;
+    font-size: 28px;
+    color: #313131;
+}
+
+.hearer-section__button{
+margin-top: 40px;
+}
+
