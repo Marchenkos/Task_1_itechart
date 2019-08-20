@@ -16,8 +16,8 @@
     z-index: 1;
     text-align: center;
     overflow: hidden;
-    height: 500px; 
-    border: 1px solid pink;
+    height: 500px;
+    /* border: 1px solid pink; */
     background: white;
     box-sizing: border-box;
 }

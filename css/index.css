@@ -1,11 +1,12 @@
 body{
-    background:#fbebea;
+    background:#ffecea;
     
     font-family: Circe-Regular;
 }
 .page{
     position: relative;
-    max-width: 1700px;
+    max-width: 1450px;
+    /* text-align: center; */
     min-width: 380px;
     margin:0 auto;
 }
