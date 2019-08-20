@@ -1,4 +1,4 @@
-.list-with-icon{
+.list-of-advantages{
 
     font-size: 19px;
     display: flex;
@@ -7,19 +7,22 @@
 
   
 }
-.list-with-icon__item{
+.list-of-advantages__advantag{
     display: block;
     margin-top: 10px;
 }
-.item__icon{
+.advantag__icon{
     float: left;
     margin-right: 10px;
  
 }
-.item__signature{
+.advantag__signature{
 color: rgb(29, 29, 29);
  margin-top:5px ;
 
 }
 
-
+@media (min-width: 768px){
+    .list-of-advantages{ padding-top:80px;
+    }
+}

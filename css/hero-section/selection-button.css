@@ -9,3 +9,12 @@
     width: 290px;
     border-radius: 50px;
 }
+@media (min-width: 768px) {
+    .selection-button{
+      
+        font-size: 13px;
+        height: 50px;
+        width: 200px;
+        border-radius: 50px;
+    }
+}

@@ -1,8 +1,14 @@
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 768px) {
 
     .cake-element{
         height: 150px;
+    }
+    .cake-element--double{
+        height: 300px;
+    }
+    .cake-element--margin{
+        margin-bottom: 20px;
     }
 }
 .cake-element{
@@ -10,13 +16,16 @@
     z-index: 1;
     text-align: center;
     overflow: hidden;
-    height: 630px; 
+    height: 500px; 
     border: 1px solid pink;
     background: white;
     box-sizing: border-box;
 }
 .cake-element--double{
-    height: 250px;
+    height: 220px;
+}
+.cake-element--margin{
+    margin-bottom: 60px;
 }
 .item__picture--position-top{
     top:150px;

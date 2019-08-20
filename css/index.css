@@ -1,4 +1,6 @@
 body{
     background:#fbebea;
+    min-width: 320px;
+    overflow-x: scroll;
     font-family: Circe-Regular;
 }
