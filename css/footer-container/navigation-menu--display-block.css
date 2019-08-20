@@ -3,17 +3,28 @@
     position: static;
     text-align: left;
 }
-.menu--footer{
+.menu--white{
     background: none;
 }
 
-.menu__item--footer{
+.menu--white .menu__item{
     border:none;
 }
-.menu__item-link--footer {
-    padding: 9px 20px;
+.menu--white .menu__item .menu__item-link {
+    padding: 9px 0px;
     text-decoration: none;
     cursor: pointer;
     color:white;
     display: block;
+}
+
+@media (min-width: 768px) {
+   
+    .menu--white .menu__item .menu__item-link {
+        padding: 9px 0px;
+        text-decoration: none;
+        cursor: pointer;
+        color:rgb(51, 51, 51);
+        display: block;
+    }
 }

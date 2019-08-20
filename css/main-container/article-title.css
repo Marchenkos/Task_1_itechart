@@ -1,4 +1,4 @@
-.article-title{
+.contact-section__caption{
     font-family: PlayfairDisplay-Bold;
     font-size: 25px;
     letter-spacing: 2px;
@@ -10,8 +10,11 @@
 @media (min-width: 768px) {
 
 .article-title{
-   font-size: 50px;
-   text-align: left;
-   margin:0 auto;
+   
+font-size: 50px;
+   
+text-align: left;
+   
+margin:0 auto;
 }
 }

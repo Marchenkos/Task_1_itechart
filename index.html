@@ -32,9 +32,10 @@
         <link rel="stylesheet" type="text/css" href="css/main-container/instruction-list.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/cake-element.css" />
 
-        <link rel="stylesheet" type="text/css" href="css/main-container/contact-section.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-container/callback-form.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-container/section-with-icons.css" />
+        <link rel="stylesheet" type="text/css" href="css/contact-section/contact-section.css" />
+        <link rel="stylesheet" type="text/css" href="css/contact-section/block-for-feedback.css" />
+        <link rel="stylesheet" type="text/css" href="css/contact-section/feedback-tools.css" />
+        <link rel="stylesheet" type="text/css" href="css/contact-section/contact-information.css" />
 
 
 
@@ -191,61 +192,82 @@
                     </div>
                 </section>
         
-                <section class="main-container__contact">
-    
-                    <article class="contact-form">
-                            <div class="section-text-title">
-                                    <div class="section-text__caption section-text__caption--secondary">Контакты</div>
-                                    <div class="section-text__signature">Остались вопросы?</div>
-                                    <div class="item__signature">Заполните форму ниже и наш кондитер свяжется с Вами</div>
+                <section class="contact-section">
+
+                    <h1 class="contact-section__caption">Контакты</h1>
+                    <h2 class="contact-section__signature">Остались вопросы?</h2>
+                
+                    <article class="contact-section__form">
+
+                        <div class="block-for-feedback">
+
+                            <div class="feedback-tools">
+                                <div class="feedback-tools__callback-condition">Заполните форму ниже и наш кондитер свяжется с Вами</div>
+                                <form class="feedback-tools__callback-form">
+                                    <input class="callback-form__item" type="text" placeholder="Ваше имя">
+                                    <input class="callback-form__item" type="email" placeholder="Email адрес">
+                                    <textarea class="callback-form__item callback-form__item--highter" placeholder="Ваш вопрос"></textarea>
+                                </form>
                             </div>
-                            <form class="callback-form">
-                                <input class="callback-form__item" type="text" placeholder="Ваше имя">
-                                <input class="callback-form__item" type="email" placeholder="Email адрес">
-                                <textarea class="callback-form__item callback-form__item--highter" placeholder="Ваш вопрос"></textarea>
-                            </form>
-    
-                            <button class="selection-button selection-button--size">Отправить</button>
-    
-                            <div class="section-text-title">
-                                <div class="item__signature--black">Или позвоните по телефону <p>+7 906 899 92 96</p></div>
-                                <div class="item__signature--black">Наша почта: bakerybypavel@mail.ru </div>
-                                <div class="item__signature--black">Мы в соц сетях:</div>
+
+                            <div class="contact-section__button">
+                                <button class="selection-button selection-button--width">Отправить</button>
                             </div>
-                            <div class="section-with-icons">
-                                <img src="css/img/vk.png">
-                                <img src="css/img/insta.png">
+
+                            <div class="contact-information">
+                                <div class="contact-information__contact-list">
+                                    <div class="contact-list__item">Или позвоните по телефону <p>+7 906 899 92 96</p></div>
+                                    <div class="contact-list__item">Наша почта: bakerybypavel@mail.ru </div>
+                                    <div class="contact-list__item">Мы в соц сетях:</div>
+                                </div>
+                                <div class="contact-information__social-networks-icons">
+                                    <img class="social-networks-icons__item" src="css/img/vk.png">
+                                    <img class="social-networks-icons__item" src="css/img/insta.png">
+                                </div>
                             </div>
+                        </div>
+
                     </article>
+
                 </section>
           
     
+            
 
+            <footer class="footer-container">
+                
+                <div class="footer-container__logo">
+                    <a class="logo logo--white" href="#home">
+                        Cakes
+                    </a> 
+                </div>
 
-            <footer class="footer-contsiner">
-                    <div class="logo-container logo-container--footer">
-                            <div class="logo">
-                                Cakes
-                            </div>  
-                    </div>
-    
+                <div class="footer-contsiner__navigation"> 
+                     
                     <div class="navigation-menu navigation-menu--display-block">
-                            <ul class="menu menu--footer">
-                                    <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Наши торты</a></li>
-                                    <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Индивидуальный заказ</a></li>
-                                    <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Отзывы</a></li>
-                                    <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">О нас</a></li>
-                                    <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Как заказать</a></li>
-                                    <li class="menu__item menu__item--footer"><a class="menu__item-link menu__item-link--footer" href="#">Контакты</a></li>        
-                            </ul>  
-                    </div>     
-                    <div class="phone-container phone-container--footer">
-                            <div class="phone-number">
-                                    +7 906 899 92 96
-                            </div> 
-                        </div>
-                        <hr class="footer-contsiner__line"/>
-                        <div class="footer-contsiner__copy"> &#169 2018 Cakes</div>
+                        <ul class="menu menu--white">
+                            <li class="menu__item"><a class="menu__item-link" href="#">Наши торты</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#">Индивидуальный заказ</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#">Отзывы</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#">О нас</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#">Как заказать</a></li>
+                            <li class="menu__item"><a class="menu__item-link" href="#">Контакты</a></li>        
+                        </ul>  
+                    </div>  
+                </div>
+
+                <div class="footer-contsiner__phone">
+                    <a  href="tel:+79068999296" class="phone-number phone-number--white">
+                        +7 906 899 92 96
+                    </a> 
+                </div>
+                <div class="contact-information__social-networks-icons">
+                    <img class="social-networks-icons__item" src="css/img/vk.png">
+                    <img class="social-networks-icons__item" src="css/img/insta.png">
+                </div>
+
+                <hr class="footer-contsiner__line"/>
+                <div class="footer-contsiner__copy"> &#169 2018 Cakes</div>
             </footer>
 </div>
       
