@@ -1,6 +1,11 @@
 body{
     background:#fbebea;
-    min-width: 320px;
-    overflow-x: scroll;
+    
     font-family: Circe-Regular;
+}
+.page{
+    position: relative;
+    max-width: 1700px;
+    min-width: 380px;
+    margin:0 auto;
 }

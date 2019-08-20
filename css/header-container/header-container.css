@@ -2,12 +2,12 @@
     background: white;
     padding: 35px 10px 20px 35px;
     display: flex;
-   
+    /* align-items: end; */
 }
 .header-container__navigation{
     font-family: Circe-Regular;
-    width: 80%;
-    float: left;
+    /* width: 80%; */
+    /* float: left; */
 }
 .header-container__logo{
     margin-right: 10px;
@@ -22,11 +22,11 @@
 @media (min-width: 768px) {
     .header-container{
         background:none;
+        align-items: flex-end;
         padding: 35px 10px 20px 35px;
-    
     }
     .header-container__phone{
-        display: inline-block;
-    
+        display: block;
+        flex-grow: 1;
     }
 }

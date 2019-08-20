@@ -2,12 +2,11 @@
     
     .phone-number{
         font-size: 11px;
-            text-decoration: none;
-            cursor: pointer;
-            font-weight: bolder;
-            color:rgb(44, 44, 44);
-            position: fixed;
-            right: 20px;;
-    
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bolder;
+        color:rgb(44, 44, 44);
+        /* position: fixed; */
+        /* right: 20px; */
     }
 }

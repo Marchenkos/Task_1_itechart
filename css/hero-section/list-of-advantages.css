@@ -23,6 +23,29 @@ color: rgb(29, 29, 29);
 }
 
 @media (min-width: 768px){
-    .list-of-advantages{ padding-top:80px;
+    .list-of-advantages{
+    display: flex;
+    flex-direction: row;
+    /* width: 400px; */
+    padding-top: 170px;
+    }
+    .list-of-advantages__advantag{
+        /* display: block; */
+        flex-basis: 5%;
+        /* margin-top: 10px; */
+    }
+    .advantag__icon{
+        float: left;
+        margin-right: 10px;
+        width: 90px;
+    }
+    .advantag__signature{
+    color: rgb(29, 29, 29);
+    /* margin-top:5px ; */
+    font-size: 14px;
+    line-height: 17px;
+    width: 220px;
+    text-align: left;
+    font-weight: bold;
     }
 }

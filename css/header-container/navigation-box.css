@@ -1,13 +1,15 @@
 .header-container__navigation{
-  width: auto;
+  /* width: auto; */
+  flex-grow: 99;
 }
 .navigation-box__button{
+    position: absolute;
     border: none;
     background: white;
-    position: fixed;
-    right: 20px;;
-   
+    /* position: fixed; */
+    right: 20px;
 }
+
 
 .navigation-box:hover .navigation-box__navigation-menu{
 display: block;
@@ -21,52 +23,48 @@ text-align: center;
     width: 100%;
     display: none;
     text-align: center;
-      
+}
+.menu__item{
+    border-bottom: 1px solid #DADADA;
+}
+.menu {
+    background:white;
+    /* margin-top: 10px; */
+}
+.menu__item-link {
+    
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    color:grey;
+    display: block;
+}
+
+@media (min-width: 768px){
+    .navigation-box__navigation-menu{
+    position: relative;
+    display: block;
     }
     .menu__item{
-        border-bottom: 1px solid #DADADA;
+        border-bottom:none;
+        float: left;
     }
     .menu {
-       background:white;
-       margin-top: 10px;
-       
+        background:none;
+        /* margin-top: 5px; */
     }
     .menu__item-link {
-       
-        padding: 20px;
+        text-transform: uppercase;
+        font-size: 11px;
+        padding: 0 10px;
         text-decoration: none;
         cursor: pointer;
-        color:grey;
+        color:rgb(29, 28, 28);
         display: block;
+        /* line-height: 1; */
+    }
+    .navigation-box__button{
+        display: none;
     }
     
-    @media (min-width: 768px){
-        .navigation-box__navigation-menu{
-        position: relative;
-         display: inline-block;
-        }
-        .menu__item{
-            border-bottom:none;
-            float: left;
-        }
-        .menu {
-            background:none;
-            margin-top: 5px;
-        }
-        .menu__item-link {
-            text-transform: uppercase;
-            font-size: 11px;
-            padding: 0 10px 7px;
-            text-decoration: none;
-            cursor: pointer;
-            color:rgb(29, 28, 28);
-            display: block;
-        }
-        
-    }
-    @media (min-width: 768px){
-    
-        .navigation-box__button{
-            display: none;
-        }
-    }
+}
