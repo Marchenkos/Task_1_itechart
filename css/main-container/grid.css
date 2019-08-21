@@ -10,7 +10,7 @@
     padding:15px 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
    
     div[class^='grid__col-']{
      

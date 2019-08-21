@@ -20,20 +20,20 @@ text-align: left;
 }
 .advantag__signature{color: rgb(29, 29, 29);margin-top: 5px;}
 
-@media (min-width: 768px){
+@media (min-width: 950px){
     .list-of-advantages{
     display: flex;
     flex-direction: row;
-    /* width: 50%; */
+  
     padding-top: 150px;
-    /* padding-right: 370px; */
+  
     }
     .list-of-advantages__advantag{
-        /* display: block; */
+     
         width: 190px;
-        /* position: relative; */
-        flex-basis: %;
-        /* margin-top: 10px; */
+      
+        /* flex-basis: %; */
+     
     }
     .advantag__icon{
         float: left;

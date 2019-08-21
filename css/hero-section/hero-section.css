@@ -8,7 +8,7 @@ background-size: 100%;
 
 background-position: left 0px bottom 300px;
 
-padding: 30% 35px 0;
+padding: 150px 35px 0;
 
 /* padding-top: 30%;
      padding-left: 10%;
@@ -16,6 +16,7 @@ padding: 30% 35px 0;
 
 text-align: center;
 }
+
 .hero-section__list{
     order:1;
     margin-top:20px;
@@ -40,8 +41,15 @@ text-align: center;
 margin-top: 40px;
 }
 
-@media (min-width: 768px) {
-   
+@media (min-width: 950px) {
+    .hero-section-wrapper{
+       
+display: flex;
+       
+/* padding: 30% 35px 0; */
+       
+flex-direction: column;
+    }
     .hero-section{
        
 background: url(../img/main-cake.png) 498px 0 no-repeat,                  url(../img/ilustr/strawb1.png) 332px 346px no-repeat,                  url(../img/ilustr/strawb2.png) 523px -31px no-repeat,                  url(../img/ilustr/flower.png) 427px 217px no-repeat;
@@ -49,13 +57,9 @@ background: url(../img/main-cake.png) 498px 0 no-repeat,                  url(..
 background-size: 68%, 15%, 12%, 6%;
        
 text-align: left;
+
        
-display: flex;
-       
-flex-direction: column;
-       
-padding: 150px 40px 23%;
-    }
+ }
   
     .hero-section__caption{
         font-size: 70px;

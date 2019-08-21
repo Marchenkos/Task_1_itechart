@@ -1,20 +1,24 @@
 .instruction-list{
-    margin:0px 20px;
+    /* margin:0px 20px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: left;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 .item__number{
     font-family: PlayfairDisplay-Bold;
     font-size:35px;
-    float: left;
-    margin:0 20px 40px;
+    /* float: left; */
+    /* margin:0 20px 40px; */
 }
 .instuction-list__item{
     margin-bottom: 20px;
 }
 .item__description{
-    width: 90%;
-  
+    /* width: 90%; */
+    width: 200px;
+    flex-grow: 2;
 }
 .item__description--bold{
     margin: 5px 0;

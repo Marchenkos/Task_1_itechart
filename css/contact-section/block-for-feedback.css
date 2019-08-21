@@ -12,7 +12,7 @@
     margin: 20px 0px 30px;
     text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 950px) {
     
  .contact-section__button{
         margin: 58px 0 24px;

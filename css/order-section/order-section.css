@@ -1,0 +1,17 @@
+.order-section__delivery-conditions{
+    /* background: #e3353d; */
+    background-image: url(../img/order.jpg);
+    padding-bottom: 350px;
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+}
+
+
+@media (min-width: 950px) {
+    .order-section__delivery-conditions{
+        padding: 70px 0 350px 55%;
+        background-size: 60%;
+        background-position: top 0px;
+    }
+}

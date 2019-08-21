@@ -18,17 +18,18 @@
 .feedback-tools__callback-condition{
     font-size: 18px;
     text-align: left;
-    width: 350px;
+    /* width: 350px; */
     margin-bottom: 10px;
 }
-@media (min-width: 768px) {
-    .feedback-tools__callback-form{
-        /* padding: 0px; */
-    }
+@media (min-width: 950px) {
+   
     .feedback-tools__callback-condition{
-  font-size: 2;
-  width: auto;
-  font-size: 20px;
+  
+font-size: 2;
+  
+width: auto;
+  
+font-size: 20px;
 }
    
     .callback-form__item{
@@ -37,9 +38,11 @@
         width: 80%;
         border-bottom: 1px solid #cccccc;
         padding: 0px;
+        /* box-sizing: border-box; */
     }
     .callback-form__item::placeholder{
         color:#cccccc;
+        /* box-sizing: border-box; */
     }
     .callback-form__item--highter{
         height: 50px;

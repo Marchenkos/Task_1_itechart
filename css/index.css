@@ -3,10 +3,16 @@ body{
     
     font-family: Circe-Regular;
 }
+
 .page{
     position: relative;
-    max-width: 1450px;
     /* text-align: center; */
     min-width: 380px;
+     margin:0 auto;
+}
+
+
+.restriction-box{
+    max-width: 1366px;
     margin:0 auto;
 }

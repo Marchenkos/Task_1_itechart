@@ -5,19 +5,8 @@
 .main-container__catalog{
     padding: 10px 0px;
 }
-.main-container__inform{
-        /* background: linear-gradient(45deg, #e3353d,#cb202e); */
-        background: #e3353d;
-        background-image: url(../img/order.jpg);
-        background-position: top 390px left 25px;
-        padding-bottom: 270px;
-        background-repeat: no-repeat;
-        color:white;
-        padding-top:1px;
-        text-align: center;
 
-}
-@media (min-width: 768px) {
+@media (min-width: 950px) {
 
 .main-container{
     padding: 0 40px;
