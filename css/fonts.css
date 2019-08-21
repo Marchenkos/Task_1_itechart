@@ -9,5 +9,10 @@
    }
  @font-face {
     font-family: Circe-Regular; /* Имя шрифта */
-    src: url(fonts/Circe-Regular.ttf); 
+    src: url(fonts/ofont.ru_Circe.ttf); 
    }
+   @font-face {
+    font-family: Circe-Regular; /* Имя шрифта */
+    src: url(fonts/ofont.ru_Circe.ttf); 
+    font-weight: bold;
+     }

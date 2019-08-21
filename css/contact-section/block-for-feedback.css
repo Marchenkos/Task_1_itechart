@@ -1,7 +1,7 @@
 .selection-button--width{
-    width: 190px;
-    height: 50px;
-    
+    width: 178px;
+    font-size: 18px;
+    height: 55px;
 }
 .block-for-feedback{
     display: flex;
@@ -14,12 +14,13 @@
 }
 @media (min-width: 768px) {
     
-    .contact-section__button{
-        margin-top: 40px;
+ .contact-section__button{
+        margin: 58px 0 24px;
     }
     .block-for-feedback{
         
-        flex-direction: row;
-        flex-wrap: wrap;
+flex-direction: row;
+        
+flex-wrap: wrap;
     }
 }

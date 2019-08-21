@@ -8,6 +8,7 @@
 }
 .callback-form__item::placeholder{
     color:rgb(228, 227, 227);
+    
 
 }
 .callback-form__item--highter{
@@ -22,12 +23,18 @@
 }
 @media (min-width: 768px) {
     .feedback-tools__callback-form{
-        padding: 0px;
+        /* padding: 0px; */
     }
+    .feedback-tools__callback-condition{
+  font-size: 2;
+  width: auto;
+  font-size: 20px;
+}
    
     .callback-form__item{
         margin: 5px 0px;
-       background: none;
+        background: none;
+        width: 80%;
         border-bottom: 1px solid #cccccc;
         padding: 0px;
     }
@@ -36,7 +43,7 @@
     }
     .callback-form__item--highter{
         height: 50px;
-        padding:0px;
+        /* padding:0px; */
     }
 
     

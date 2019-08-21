@@ -6,7 +6,7 @@
     position: absolute;
     border: none;
     background: white;
-    /* position: fixed; */
+ font-size: 20px;
     right: 20px;
 }
 
@@ -48,6 +48,8 @@ text-align: center;
     .menu__item{
         border-bottom:none;
         float: left;
+        /* line-height: 0; */
+        /* FONT-WEIGHT: 100; */
     }
     .menu {
         background:none;
