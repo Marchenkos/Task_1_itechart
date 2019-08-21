@@ -1,17 +1,27 @@
 .order-section__delivery-conditions{
     /* background: #e3353d; */
     background-image: url(../img/order.jpg);
-    padding-bottom: 350px;
     background-repeat: no-repeat;
     color:white;
+    background-size: 400px; 
     text-align: center;
+    padding-bottom: 290px;
+
+    background-position: right 0px top 400px;
 }
 
 
 @media (min-width: 950px) {
     .order-section__delivery-conditions{
-        padding: 70px 0 350px 55%;
-        background-size: 60%;
-        background-position: top 0px;
+        padding: 120px 106px 160px 790px;
+        background-size: 700px;
+        padding-bottom: 100px;
+        background-position: left 0px top 0px;
+    }
+    .order-section-wrapper{
+        padding: 20px 35px 0px;
+    }
+    .order-section{
+        background: #e4353c;
     }
 }

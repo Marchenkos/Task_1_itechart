@@ -6,7 +6,7 @@
     position: absolute;
     border: none;
     background: white;
- font-size: 20px;
+    font-size: 20px;
     right: 20px;
 }
 
@@ -54,6 +54,11 @@ text-align: center;
     .menu {
         background:none;
         /* margin-top: 5px; */
+    }
+    .menu::after{
+        content: "";
+        clear: both;
+        display: table;
     }
     .menu__item-link {
         text-transform: uppercase;

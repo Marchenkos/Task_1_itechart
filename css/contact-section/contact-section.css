@@ -17,9 +17,7 @@
 .contact-section__button{
     order: 1;
 }
-.feedback-tools{
-flex-basis: 50%;
-}
+.feedback-tools{flex-basis: 50%;padding-right: 25px;}
 
 .contact-information{
     flex-basis: 50%;
@@ -36,8 +34,8 @@ font-size: 46px;
 .contact-section{
     background-image: url(../img/strawb.png);
     background-repeat: no-repeat;
-    background-size: 75%;
-    background-position: right -59px bottom -15px;
+    background-size: 1000px;
+    background-position: left 500px bottom -15px;
     padding: 40px 40px 300px;
 }
 }

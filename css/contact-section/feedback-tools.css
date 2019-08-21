@@ -24,12 +24,10 @@
 @media (min-width: 950px) {
    
     .feedback-tools__callback-condition{
-  
-font-size: 2;
-  
-width: auto;
-  
-font-size: 20px;
+  font-size: 2;
+  padding-right: px;
+  /* width: auto; */
+  font-size: 20px;
 }
    
     .callback-form__item{
