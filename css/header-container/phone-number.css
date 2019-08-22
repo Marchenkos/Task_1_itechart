@@ -1,12 +1,16 @@
+.phone-number{
+    font-size: 17px;
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(44, 44, 44);
+ 
+}
+
 @media (min-width: 950px) {
     
     .phone-number{
-        font-size: 11px;
-        text-decoration: none;
-        cursor: pointer;
-        font-weight: bolder;
+
         color:rgb(44, 44, 44);
-        /* position: fixed; */
-        /* right: 20px; */
+     
     }
 }

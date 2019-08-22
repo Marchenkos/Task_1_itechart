@@ -14,8 +14,8 @@ text-align: left;
 }
 .advantag__icon{
     float: left;
+    width: 51px;
     margin-right: 10px;
- 
 }
 .advantag__signature{color: rgb(29, 29, 29);margin-top: 15px;}
 

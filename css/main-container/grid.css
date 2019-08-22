@@ -7,7 +7,7 @@
 }
 [class^='grid__col-']{
     box-sizing: border-box;
-    padding:15px 20px;
+    padding:15px 0;
     flex-basis: 100%;
 }
 

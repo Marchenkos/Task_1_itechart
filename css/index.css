@@ -12,7 +12,10 @@ body{
 }
 
 
-.restriction-box{
+.base-section-content{
     max-width: 1366px;
     margin: 0 auto;
+    magin-right: -35px;
+    padding: 20px 35px;
+    box-sizing: border-box;
 }

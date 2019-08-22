@@ -27,7 +27,6 @@ text-align: center;
 .navigation-box{
     display: flex;
     justify-content: flex-end;
-    
 }
 
 @media (min-width: 950px){

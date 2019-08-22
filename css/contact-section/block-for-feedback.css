@@ -15,7 +15,8 @@
 @media (min-width: 950px) {
     
  .contact-section__button{
-        margin: 58px 0 24px;
+        margin: 58px 0 0;
+        text-align: left;
     }
     .block-for-feedback{
         

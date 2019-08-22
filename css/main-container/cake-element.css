@@ -15,12 +15,13 @@
 }
 .cake-element__mini-title{
     font-size: 16px;
+    text-align: left;
     margin-top: 5px;
     color:rgb(95, 95, 95);
 }
 .cake-element__picture{
 
-    max-width:330px;
+    max-width:300px;
     position: relative;
     z-index: 2;
 }

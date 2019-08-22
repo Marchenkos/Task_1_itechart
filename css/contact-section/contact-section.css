@@ -1,5 +1,5 @@
 
-.contact-section-wrapper{
+.contact-section-content{
     padding: 50px 35px 20px;
 }
 .contact-section__signature{
@@ -29,12 +29,12 @@ font-size: 46px;
 
 }
 
-.contact-section-wrapper{
+.contact-section-content{
     background-image: url(../img/strawb.png);
     background-repeat: no-repeat;
     background-size: 1000px;
-    margin-right:-30px; 
+    /* margin-right:-30px; */
     background-position: left 350px bottom -15px;
-    padding: 40px 40px 300px;
+    padding: 40px 35px 300px;
 }
 }

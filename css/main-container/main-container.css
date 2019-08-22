@@ -3,12 +3,9 @@
     text-align: center;
 }
 
-.main-container-wrapper{
-    padding: 20px 35px;
-}
-@media (min-width: 950px) {
+/* @media (min-width: 950px) {
 
 .main-container{
     padding: 0 40px;
 }
-}
+} */

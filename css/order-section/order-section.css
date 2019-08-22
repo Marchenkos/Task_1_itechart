@@ -1,20 +1,19 @@
 .order-section__delivery-conditions{
     color:white;
 }
-.order-section-wrapper{
+.order-section-content{
     background-image: url(../img/order.jpg);
     background-repeat: no-repeat;
     background-size: 400px;
-    /* background-attachment: fixed; */
     padding: 39px 35px 290px;
     background-position: right 50% top 400px;
 }
 
 .order-section{
-    background-image: url(../img/fon.jpg);
+    background: linear-gradient(#e3353d, #d3252f);
 }
 @media (min-width: 950px) {
-    .order-section-wrapper{
+    .order-section-content{
         background-size: 800px;
         padding: 40px 60px 60px 0;
         background-position: left -55px top -50px;

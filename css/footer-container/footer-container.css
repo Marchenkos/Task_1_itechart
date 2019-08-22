@@ -1,4 +1,4 @@
-.footer-container-wrapper{
+.footer-container-content{
 
 padding: 40px 35px 10px;
 
@@ -6,9 +6,11 @@ display: flex;
 
 flex-direction: column;
 
-background: #999999;
-}
 
+}
+.footer-container{
+    background: #999999;
+}
 .footer-container__navigation{
     margin: 40px 0 20px;
 }
@@ -39,8 +41,8 @@ background: #999999;
 
 @media (min-width: 950px) {
 
-   
-    .footer-container-wrapper{
+    
+    .footer-container-content{
         background: none;
         align-items: center;
         padding: 40px 40px 0px;
