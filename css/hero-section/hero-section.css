@@ -1,29 +1,22 @@
 .hero-section-content{
-
-background-image: url(../img/main-cake-2.png);
-
-background-repeat: no-repeat;
-
-background-size: 100%;
-
-background-position: left 0px bottom 300px;
-
-padding: 150px 35px 10px;
-
-text-align: center;
+    background-image: url(../img/main-cake-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left 0px bottom 300px;
+    padding: 150px 35px 10px;
+    text-align: center;
 }
 
 .hero-section__list{
     order:1;
     width:300px;
-   margin:20px auto;
+    margin:20px auto;
 }
 .hero-section__caption{
     font-family: PlayfairDisplay-Bold;
     letter-spacing: 5px;
     font-size: 45px;
     width: 230px;
-  
     margin:0 auto;
     color:#222222;
 }
@@ -40,18 +33,17 @@ text-align: center;
 
 @media (min-width: 950px) {
 
-    .hero-section-content{
-        display: flex;
-        flex-direction: column;
-        background: url(../img/main-cake.png) left 550px top 0 no-repeat,
-                    url(../img/ilustr/strawb1.png) left 350px top 346px no-repeat,
-                    url(../img/ilustr/strawb2.png) left 530px top -36px no-repeat,
-                    url(../img/ilustr/flower.png) left 460px top 210px no-repeat;
-        background-size: 900px, 250px, 180px, 150px;
-        text-align: left;
-        padding: 150px 35px 180px;
-        /* margin-left: -38px; */
-        /* padding-right: 35px; */
+    .hero-section-content{  
+        display: flex;
+        flex-direction: column;
+        background: url(../img/main-cake.png) left 550px top 0 no-repeat,
+                        url(../img/ilustr/strawb1.png) left 350px top 346px no-repeat,
+                        url(../img/ilustr/strawb2.png) left 530px top -36px no-repeat,
+                        url(../img/ilustr/flower.png) left 460px top 210px no-repeat;
+            
+        background-size: 900px, 250px, 180px, 150px;
+        text-align: left;
+        padding: 150px 35px 180px;
     }
 
     .hero-section__caption{

@@ -1,18 +1,18 @@
 @font-face {
-    font-family: PlayfairDisplay-Bold; /* Имя шрифта */
-    src: url(fonts/PlayfairDisplay-Bold.otf);/* Путь к файлу со шрифтом */
+    font-family: PlayfairDisplay-Bold; 
+    src: url(fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff);
    }
 
 @font-face {
-    font-family: Intro Script; /* Имя шрифта */
-    src: url(fonts/16216.otf); 
+    font-family: Intro Script; 
+    src: url(fonts/IntroScriptB-Base/IntroScriptB-Base.woff); 
    }
  @font-face {
-    font-family: Circe-Regular; /* Имя шрифта */
-    src: url(fonts/Circe-Regular.ttf); 
+    font-family: Circe-Regular; 
+    src: url(fonts/Circe/Circe-Regular.woff); 
    }
    @font-face {
-    font-family: Circe-Regular; /* Имя шрифта */
-    src: url(fonts/ofont.ru_Circe.ttf); 
+    font-family: Circe-Regular;
+    src: url(fonts/Circe/Circe-Bold.woff);
     font-weight: bold;
-     }
+    }

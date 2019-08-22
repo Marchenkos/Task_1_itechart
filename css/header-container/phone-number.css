@@ -3,14 +3,14 @@
     text-decoration: none;
     cursor: pointer;
     color:rgb(44, 44, 44);
- 
+}
+.phone-number--white{
+    color: white;
 }
 
 @media (min-width: 950px) {
     
-    .phone-number{
-
-        color:rgb(44, 44, 44);
-     
+    .phone-number--bg-none{
+        font-size: 12px;
     }
 }

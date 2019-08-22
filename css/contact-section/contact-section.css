@@ -12,29 +12,27 @@
 
 @media (min-width: 950px) {
 
-.contact-section__button{
-    order: 1;
-}
-.feedback-tools{flex-basis: 50%;padding-right: 25px;}
+    .contact-section__button{
+        order: 1;
+    }
+    .feedback-tools{
+        flex-basis: 50%;
+        padding-right: 25px;
+    }
 
-.contact-information{
-    flex-basis: 50%;
-    
-}
-.contact-section__signature{
-  
-margin: 40px 0 20px;
-  
-font-size: 46px;
+    .contact-information{
+        flex-basis: 50%; 
+    }
+    .contact-section__signature{
+        margin: 40px 0 20px;
+        font-size: 46px;
+    }
 
-}
-
-.contact-section-content{
-    background-image: url(../img/strawb.png);
-    background-repeat: no-repeat;
-    background-size: 1000px;
-    /* margin-right:-30px; */
-    background-position: left 350px bottom -15px;
-    padding: 40px 35px 300px;
-}
+    .contact-section-content{
+        background-image: url(../img/strawb.png);
+        background-repeat: no-repeat;
+        background-size: 1000px;
+        background-position: left 350px bottom -15px;
+        padding: 40px 35px 300px;
+    }
 }

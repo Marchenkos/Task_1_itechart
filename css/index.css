@@ -6,7 +6,6 @@ body{
 
 .page{
     position: relative;
-    /* text-align: center; */
     min-width: 380px;
      margin:0 auto;
 }
@@ -15,7 +14,7 @@ body{
 .base-section-content{
     max-width: 1366px;
     margin: 0 auto;
-    magin-right: -35px;
+    margin-right: -35px;
     padding: 20px 35px;
     box-sizing: border-box;
 }

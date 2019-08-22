@@ -1,19 +1,15 @@
 .header-container__navigation{
-  /* width: auto; */
-  flex-grow: 99;
+  flex-grow: 1;
 }
 .navigation-box__button{
-    /* position: absolute; */
     border: none;
     background: white;
     font-size: 20px;
-    /* right: 20px; */
 }
 
-
 .navigation-box:hover .navigation-box__navigation-menu{
-display: block;
-text-align: center;
+    display: block;
+    text-align: center;
 }
 
 .navigation-box__navigation-menu{
@@ -27,6 +23,7 @@ text-align: center;
 .navigation-box{
     display: flex;
     justify-content: flex-end;
+    line-height: 2;
 }
 
 @media (min-width: 950px){

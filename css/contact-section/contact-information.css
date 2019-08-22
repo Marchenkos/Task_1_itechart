@@ -12,10 +12,8 @@
 
 
 @media (min-width: 950px) {
-  
-.contact-information{
-    flex-basis: 40%;
-}
-
+    .contact-information{
+        flex-basis: 40%;
+    }
 }
 

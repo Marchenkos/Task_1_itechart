@@ -19,11 +19,10 @@
     .header-container{
         background:none;
         align-items: flex-end;
-        padding: 35px 10px 20px 35px;
+        padding: 35px 0px 20px 0px;
     }
     .header-container__phone{
         display: block;
-   
-        flex-grow: 1;
+        flex-grow: 0;
     }
 }

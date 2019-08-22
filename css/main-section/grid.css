@@ -1,9 +1,8 @@
 .grid{
-    /* width: auto; */
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* padding: 10px; */
 }
 [class^='grid__col-']{
     box-sizing: border-box;

@@ -1,12 +1,7 @@
 .footer-container-content{
-
-padding: 40px 35px 10px;
-
-display: flex;
-
-flex-direction: column;
-
-
+    padding: 40px 35px 10px;
+    display: flex;
+    flex-direction: column;
 }
 .footer-container{
     background: #999999;
@@ -25,7 +20,6 @@ flex-direction: column;
     color:#b1b0b0;
 }
 
-
 .phone-number--white{
     text-decoration: none;
     cursor: pointer;
@@ -40,12 +34,10 @@ flex-direction: column;
 }
 
 @media (min-width: 950px) {
-
-    
     .footer-container-content{
         background: none;
         align-items: center;
-        padding: 40px 40px 0px;
+        padding: 40px 35px 0px;
         flex-direction: row;
         flex-wrap: wrap;
     }

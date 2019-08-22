@@ -1,9 +1,7 @@
 .instruction-list{
     display: flex;
-    /* padding-bottom: 190px; */
     align-items: flex-end;
     flex-direction: column;
-    /* margin-bottom: 0px; */
 }
 .item__number{
     font-family: PlayfairDisplay-Bold;
@@ -22,16 +20,13 @@
 .item__description{
     width: 295px;
     text-align: left;
-    /* margin-top: 10px; */
     }
 @media (min-width: 950px) {
 
     .item__description{
         width: 300px;
-        /* flex-grow: 2; */
         font-size: 21px;
         margin-left: 55px;
-        /* margin-bottom: 23px; */
     }
   
     .instruction-list__item{
@@ -40,6 +35,5 @@
     .item__number{
     font-size: 60px;
     line-height: 1;
-    /* margin-left: 10px; */
 }
 }
