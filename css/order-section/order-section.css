@@ -1,22 +1,22 @@
 .order-section__delivery-conditions{
+    color:white;
+}
+.order-section-wrapper{
     background-image: url(../img/order.jpg);
     background-repeat: no-repeat;
-    color:white;
     background-size: 400px;
-    padding: 30px 35px 290px;
-    background-position: right 0px top 400px;
+    /* background-attachment: fixed; */
+    padding: 39px 35px 290px;
+    background-position: right 50% top 400px;
 }
-.order-section__titles{
-   margin:20px 35px 0 0;
-}
+
 .order-section{
-    background: linear-gradient(#fa3c3c, #d33232);
+    background-image: url(../img/fon.jpg);
 }
 @media (min-width: 950px) {
-    .order-section__delivery-conditions{
-        background-size: 700px;
-        /* text-align: center; */
-        padding-bottom: 0px;
-        background-position: left -55px top 0px;
+    .order-section-wrapper{
+        background-size: 800px;
+        padding: 40px 60px 60px 0;
+        background-position: left -55px top -50px;
     }  
 }

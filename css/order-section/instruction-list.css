@@ -1,7 +1,9 @@
 .instruction-list{
     display: flex;
+    /* padding-bottom: 190px; */
     align-items: flex-end;
     flex-direction: column;
+    /* margin-bottom: 0px; */
 }
 .item__number{
     font-family: PlayfairDisplay-Bold;
@@ -29,11 +31,11 @@
         /* flex-grow: 2; */
         font-size: 21px;
         margin-left: 55px;
-        margin-bottom: 23px;
+        /* margin-bottom: 23px; */
     }
   
     .instruction-list__item{
-    margin: 25px 0;
+    margin: 0 0 25px 0;
 }
     .item__number{
     font-size: 60px;

@@ -1,9 +1,7 @@
 
-.contact-section{
+.contact-section-wrapper{
     padding: 50px 35px 20px;
 }
-
-
 .contact-section__signature{
     font-family: Intro Script;
     font-size: 28px;
@@ -28,14 +26,15 @@
 margin: 40px 0 20px;
   
 font-size: 46px;
-  
-/* line-height: 0; */
+
 }
-.contact-section{
+
+.contact-section-wrapper{
     background-image: url(../img/strawb.png);
     background-repeat: no-repeat;
     background-size: 1000px;
-    background-position: left 500px bottom -15px;
+    margin-right:-30px; 
+    background-position: left 350px bottom -15px;
     padding: 40px 40px 300px;
 }
 }

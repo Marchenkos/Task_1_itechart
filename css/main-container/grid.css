@@ -11,6 +11,7 @@
     flex-basis: 100%;
 }
 
+
 @media (min-width: 950px) {
    
     .grid__col-8-12{
@@ -18,5 +19,15 @@
     }
     .grid__col-4-12{
         flex-basis: 41.66%;
+    }
+    [class^='grid__col-']:nth-child(odd){
+
+        padding:15px 20px 15px 0;
+    
+    }
+    [class^='grid__col-']:nth-child(even){
+
+        padding:15px 0 15px 20px;
+    
     }
 }

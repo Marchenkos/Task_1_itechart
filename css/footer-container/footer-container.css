@@ -10,11 +10,7 @@ background: #999999;
 }
 
 .footer-container__navigation{
-    margin-top: 40px;
-}
-
-.footer-container__phone{
-    margin-top:10px;
+    margin: 40px 0 20px;
 }
 
 .footer-container__line{
@@ -27,17 +23,19 @@ background: #999999;
     color:#b1b0b0;
 }
 
-.logo--white{
-    color:white;
-    font-size: 35px;
-}
+
 .phone-number--white{
     text-decoration: none;
     cursor: pointer;
     color: white;
 }
 
-
+.footer-container__icon{
+    margin:20px 0;
+}
+.footer-container__logo{
+   width:100px;
+}
 
 @media (min-width: 950px) {
 
@@ -45,7 +43,7 @@ background: #999999;
     .footer-container-wrapper{
         background: none;
         align-items: center;
-        padding: 40px 40px 4px;
+        padding: 40px 40px 0px;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -54,26 +52,20 @@ background: #999999;
     }
 
     .footer-container__navigation{
-        flex-grow: 99;
+        flex-grow: 2;
         margin: 0;
     }
 
     .footer-container__phone{
         display: none;
     }
+    .footer-container__icon{
+        margin: 0;
+    }
 
     .footer-container__line{
         margin-top: 27px;
         border: 0.7px solid #c9c9c9;
     } 
-        
-    .logo--white{
-        font-size: 27px;
-        letter-spacing: 1.5px;
-        line-height: 0;
-        vertical-align: sub;
-        color:rgb(51, 51, 51);
-    }
-
-  
+ 
 }

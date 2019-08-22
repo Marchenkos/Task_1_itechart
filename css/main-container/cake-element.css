@@ -3,9 +3,7 @@
     overflow: hidden;
     background: white;
     height: 200px;
-}
-.cake-element--double{
-    height:200px;
+    text-align: center;
 }
 
 .cake-element__title{
@@ -22,21 +20,30 @@
 }
 .cake-element__picture{
 
-    max-width:100%;
+    max-width:330px;
     position: relative;
     z-index: 2;
 }
-.cake-element--double:first-child {
+.grid__col-4-12 .cake-element:first-child {
     margin-bottom: 40px;
  }
 
  @media (min-width: 950px) {
+    .cake-element {
+        height: 290px;
+    }
+    .cake-element--singl {
+        padding-top: 70px; 
+        height: 550px;
+    }
+    .cake-element__picture {
+        max-width:280px;
+    }
+    .cake-element--singl .cake-element__picture{
 
-    .cake-element{
-        height: 500px;
+        max-width:460px;
     }
-    .cake-element--double{
-        height: 230px;
-    }
+
+   
 
 }
