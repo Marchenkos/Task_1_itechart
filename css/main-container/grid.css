@@ -1,5 +1,5 @@
 .grid{
-    width: auto;
+    /* width: auto; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,18 +8,15 @@
 [class^='grid__col-']{
     box-sizing: border-box;
     padding:15px 20px;
+    flex-basis: 100%;
 }
 
-@media (max-width: 950px) {
+@media (min-width: 950px) {
    
-    div[class^='grid__col-']{
-     
-        flex-basis: 100%;
+    .grid__col-8-12{
+        flex-basis: 58.33%;
     }
-}
-.grid__col-8-12{
-    flex-basis: 58.33%;
-}
-.grid__col-4-12{
-    flex-basis: 41.66%;
+    .grid__col-4-12{
+        flex-basis: 41.66%;
+    }
 }

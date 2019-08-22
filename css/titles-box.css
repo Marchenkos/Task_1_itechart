@@ -3,28 +3,33 @@
     font-size: 30px;
     letter-spacing: 2px;
     margin:0 auto;
-    text-align: center;
 }
 .titles-box__signature{
     font-family: Intro Script;
     font-size: 28px;
     margin:10px 0px;
-    text-align: left;
 }
 .titles-box--bg-red{
     color: white;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .titles-box--bg-pink{
     color:#3d3d3d;
+    text-align: center;
 }
 
 @media (min-width: 950px) {
 
 .titles-box__caption{
     font-size: 40px;
+}
+.titles-box--bg-red{
+    text-align: right;
+}
+.titles-box--bg-pink{
     text-align: left;
 }
-
 .titles-box__signature{
     font-size: 46px;
     }

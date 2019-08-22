@@ -1,53 +1,42 @@
-
-@media (max-width: 950px) {
-
-    .cake-element{
-        height: 150px;
-    }
-    .cake-element--double{
-        height: 300px;
-    }
-    .cake-element--margin{
-        margin-bottom: 20px;
-    }
-}
 .cake-element{
     position: relative;
-    z-index: 1;
-    text-align: center;
     overflow: hidden;
-    height: 500px;
-    /* border: 1px solid pink; */
     background: white;
-    box-sizing: border-box;
+    height: 200px;
 }
 .cake-element--double{
-    height: 220px;
+    height:200px;
 }
-.cake-element--margin{
-    margin-bottom: 60px;
-}
-.item__picture--position-top{
-    top:150px;
-}
-
 
 .cake-element__title{
-    font-size: 17px;
-    margin-left: 20px;
-margin-top:10px;
+    font-size: 19px;
     position: absolute;
     z-index: 3;
-    top: 0px;
+    top: 16px;
+    left: 20px;
 }
 .cake-element__mini-title{
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 5px;
     color:rgb(95, 95, 95);
 }
 .cake-element__picture{
-max-width:100%;
-position: relative;
-z-index: 2;
-}
 
+    max-width:100%;
+    position: relative;
+    z-index: 2;
+}
+.cake-element--double:first-child {
+    margin-bottom: 40px;
+ }
+
+ @media (min-width: 950px) {
+
+    .cake-element{
+        height: 500px;
+    }
+    .cake-element--double{
+        height: 230px;
+    }
+
+}

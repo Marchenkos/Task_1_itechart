@@ -24,10 +24,8 @@
         <link rel="stylesheet" type="text/css" href="css/hero-section/selection-button.css" />
 
 
-        <link rel="stylesheet" type="text/css" href="css/main-container/article-title.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/main-container.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-container/catalog-section.css" />
         <link rel="stylesheet" type="text/css" href="css/main-container/cake-element.css" />
 
 
@@ -46,7 +44,6 @@
         <link rel="stylesheet" type="text/css" href="css/footer-container/footer-container.css" />
 
 
-        <link rel="stylesheet" type="text/css" href="css/main-container.css" />
 
     </head>
 <body>
@@ -88,7 +85,7 @@
     </div>  
             
                     
-        <section class="hero-section">
+        <article class="hero-section">
 
             <div class="restriction-box">
 
@@ -123,10 +120,11 @@
 
             </div>
 
-        </section>   
+        </article>   
                     
             
-        <main class="main-container">
+        <article class="main-container">
+
             <div class="restriction-box">
     
                 <div class="main-container__title">
@@ -135,7 +133,7 @@
                     </div>
                 </div>
     
-                <article class="main-container__catalog">
+                <div class="main-container__catalog">
     
                     <div class="grid">
     
@@ -147,7 +145,8 @@
                         </div>
     
                         <div class="grid__col-4-12">
-                            <div class="cake-element cake-element--double cake-element--margin">
+                            
+                            <div class="cake-element cake-element--double">
                                 <img class="cake-element__picture" src="css/img/catalog-cake/with white/cake-3.jpg">
                                 <h4 class="cake-element__title">Муссовые <p class="cake-element__mini-title">12 видов</p></h4>
                             </div>
@@ -159,7 +158,7 @@
                         </div>
     
                         <div class="grid__col-4-12">
-                            <div class="cake-element cake-element--double cake-element--margin">
+                            <div class="cake-element cake-element--double">
                                 <img class="cake-element__picture" src="css/img/catalog-cake/with white/cake-5.jpg">
                                 <h4 class="cake-element__title">Мужчинам <p class="cake-element__mini-title">12 видов</p></h4>
                             </div>
@@ -178,49 +177,50 @@
                         </div>
                     
                     </div>
-                </article>
+                </div>
             </div>
         
-        </main>
+        </article>
             
-        <section class="order-section">
+        <article class="order-section">
     
             <div class="restriction-box">
-                                
                            
-                <article class="order-section__delivery-conditions">
-
+                <div class="order-section__titles">
                     <div class="titles-box titles-box--bg-red">
-                            <h1 class="titles-box__caption ">Как заказать</h1>
+                        <h1 class="titles-box__caption ">Как заказать</h1>
                     </div>
+                </div>
+                <section class="order-section__delivery-conditions">
+
                     
-                    <div class="instruction-list">
-    
-                
-                        <h1 class="item__number">1</h1>
-                        <div class="item__description"><p class="item__description--bold">Срок заказа </p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</div>
                     
+                    <ul class="instruction-list">
     
-                    
-                        <h1 class="item__number">2</h1>
-                        <div class="item__description"><p class="item__description--bold">Доставка по городу</p>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</div>
-                    
+                        <li class="instruction-list__item">
+                            <div class="item__number">1</div>
+                            <div class="item__description"><p class="item__description--bold">Срок заказа </p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</div>
+                            </li>
+
+                        <li class="instruction-list__item">
+                            <div class="item__number">2</div>
+                            <div class="item__description"><p class="item__description--bold">Доставка по городу</p>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</div>
+                        </li>
+
+                        <li class="instruction-list__item">
+                            <div class="item__number">3</div>
+                            <div class="item__description"><p class="item__description--bold">Доставка за городом</p>Доставка за пределами города рассчитывается индивидуально.</div>
+                        </li>
+                    </ul>
     
-                
-                        <h1 class="item__number">3</h1>
-                        <div class="item__description"><p class="item__description--bold">Доставка за городом</p>Доставка за пределами города рассчитывается индивидуально.</div>
-                    
-    
-                    </div>
-    
-                </article>
+                </section>
                         
             
             </div>    
     
-        </section>
+        </article>
                 
-        <section class="contact-section">
+        <article class="contact-section">
             <div class="restriction-box">
                 <div class="contact-section__titles">
                         <div class="titles-box titles-box--bg-pink">
@@ -230,7 +230,7 @@
                 </div>
                    
         
-                <article class="contact-section__form">
+                <section class="contact-section__form">
     
                     <div class="block-for-feedback">
     
@@ -260,10 +260,10 @@
                         </div>
                     </div>
     
-                </article>
+                </section>
     
             </div>
-        </section>
+        </article>
                 
             
     <footer class="footer-container">    
