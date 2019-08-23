@@ -5,6 +5,7 @@
 .header-container-content
 {
     display: flex;
+    align-items: flex-end;
 }
 .header-container__navigation
 {
@@ -12,7 +13,8 @@
 }
 .header-container__logo
 {
-    margin-right: 10px;
+    margin-right: 15px;
+
 }
 
 .header-container__phone

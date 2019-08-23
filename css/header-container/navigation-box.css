@@ -18,7 +18,9 @@
 }
 .navigation-box
 {
-    line-height: 2;  display: flex;  justify-content: flex-end;
+    /* line-height: 2; */
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media (min-width: 950px)

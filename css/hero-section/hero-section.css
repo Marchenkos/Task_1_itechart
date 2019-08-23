@@ -5,7 +5,9 @@
 
 .hero-section__list
 {
-    order: 1;  width: 300px;  margin: 20px auto;
+    order: 1;
+width: 320px;
+    margin: 20px auto;
 }
 .hero-section__caption
 {
@@ -25,10 +27,16 @@
 {
     .hero-section-content
     {
-        display: flex;  flex-direction: column;  padding: 150px 35px 180px;         text-align: left;  background: url(../img/main-cake.png) left 550px top 0 no-repeat,
+        /* margin-left: -35px; */
+        display: flex;
+        flex-direction: column;
+        padding: 150px 35px 180px;
+        text-align: left;
+        background: url(../img/main-cake.png) left 550px top 0 no-repeat,
         url(../img/ilustr/strawb1.png) left 350px top 346px no-repeat,
         url(../img/ilustr/strawb2.png) left 530px top -36px no-repeat,
-        url(../img/ilustr/flower.png) left 460px top 210px no-repeat;  background-size: 900px, 250px, 180px, 150px;
+        url(../img/ilustr/flower.png) left 460px top 210px no-repeat;
+        background-size: 850px, 250px, 180px, 150px;
     }
 
     .hero-section__caption
@@ -36,7 +44,7 @@
         font-size: 70px;  width: 350px;         margin: 10px 0;
     }
     .hero-section__list
-    {
+    {    width: 483px;
         margin: 0;
     }
     .hero-section__signature

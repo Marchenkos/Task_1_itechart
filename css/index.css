@@ -7,13 +7,3 @@ body
 {
     position: relative;  min-width: 380px;  margin: 0 auto;
 }
-
-
-.base-section-content
-{
-    box-sizing: border-box;
-    max-width: 1366px;
-    margin: 0 auto;
-    /* margin-right: -35px; */
-    padding: 20px 35px;
-}

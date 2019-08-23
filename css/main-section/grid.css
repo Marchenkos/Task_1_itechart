@@ -1,22 +1,32 @@
 .grid
 {
-    display: flex;  flex-direction: row;  flex-wrap: wrap;
-}
+    display: flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flexbox-wrap: wrap;
+ 
+    }
 [class^='grid__col-']
 {
-    flex-basis: 100%;  box-sizing: border-box;  padding: 15px 0;
+    flex-basis: 100%; 
+   box-sizing: border-box;  padding: 15px 0;
 }
 
 
-@media (min-width: 950px)
+@media screen and (min-width: 950px)
 {
     .grid__col-8-12
     {
         flex-basis: 58.33%;
+        
     }
     .grid__col-4-12
     {
-        flex-basis: 41.66%;
+        flex-basis: 37.66%;
+  
+     
     }
     [class^='grid__col-']:nth-child(odd)
     {

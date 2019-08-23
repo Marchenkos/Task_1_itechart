@@ -5,6 +5,7 @@
 .list-of-advantages__advantag
 {
     margin-top: 10px;
+    
 }
 .advantag__icon
 {
@@ -19,11 +20,14 @@
 {
     .list-of-advantages
     {
-        display: flex;  flex-direction: row;  padding-top: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 150px;
     }
     .list-of-advantages__advantag
     {
-        width: 190px;  margin: 0;
+        margin: 0;
+        flex-basis: 45%;
     }
     .advantag__icon
     {
@@ -31,8 +35,12 @@
     }
     .advantag__signature
     {
-        font-size: 15px;  font-weight: bold;         line-height: 17px;  width: 210px;  margin-top: 5px;  text-align: left;
-
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 17px;
+     
+        margin-top: 5px;
+        text-align: left;
         color: rgb(29, 29, 29);
     }
 }
