@@ -27,7 +27,8 @@
     .order-section__caption
     {
          text-align: right;
-         margin-right: 120px;
+         /* margin: 0; */
+         margin-right: 125px;
          /* width: 250px; */
     }
 }

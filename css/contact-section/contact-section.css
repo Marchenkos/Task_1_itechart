@@ -9,14 +9,18 @@
 }
 .contact-section__signature
 {
-    font-family: Intro Script;  font-size: 28px;  margin: 10px 0;  text-align: left;     color: #313131;
+    font-family: Intro Script;  font-size: 28px;  margin: 10px 0;  width: 280px; text-align: left;     color: #313131;
 }
 
 @media (min-width: 950px)
 {
     .contact-section__caption{
    
-    text-align: left;
+/* text-align: left; */
+   
+width: 250px;
+   
+margin: 0;
 }
     .contact-section__button
     {
@@ -33,7 +37,9 @@
     }
     .contact-section__signature
     {
-        font-size: 46px;  margin: 40px 0 20px;
+        font-size: 35px;
+       
+        margin: 40px 0 20px;
     }
 
     .contact-section-content

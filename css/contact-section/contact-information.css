@@ -2,7 +2,9 @@
 {
     font-size: 25px;  margin: 20px 0;
 }
-
+.contact-information__contact-list{
+    width: 274px;
+}
 
 .contact-list__item
 {
@@ -11,7 +13,10 @@
 
 
 @media (min-width: 950px)
-{
+
+{   .contact-information__contact-list{
+        width: 400px;
+    }
     .contact-information
     {
         flex-basis: 40%;

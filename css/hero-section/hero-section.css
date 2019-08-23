@@ -41,7 +41,9 @@ width: 320px;
 
     .hero-section__caption
     {
-        font-size: 70px;  width: 350px;         margin: 10px 0;
+        font-size: 70px;
+        width: 290px;
+        margin: 10px 0;
     }
     .hero-section__list
     {    width: 483px;

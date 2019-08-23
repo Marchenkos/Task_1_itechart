@@ -16,18 +16,18 @@
 
 
 
-.menu--bg-gray
+.menu--highlighter
 {
     text-align: left;  background: none;
 }
 
-.menu--bg-gray .menu__item
+.menu--highlighter .menu__item
 {
     border: none;
 }
 
 
-.menu--bg-gray .menu__item .menu__item-link
+.menu--highlighter .menu__item .menu__item-link
 {
     padding: 9px 0;  color: white;
 }
@@ -56,13 +56,13 @@
     {
         flex-direction: row;  background: none;
     }
-    .menu--bg-gray
+    .menu--highlighter
     {
         justify-content: space-around;         max-width: 800px;
         margin: 0 auto;
     }
 
-    .menu--bg-gray .menu__item .menu__item-link
+    .menu--highlighter .menu__item .menu__item-link
     {
         font-size: 16px;
 
