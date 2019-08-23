@@ -1,0 +1,49 @@
+
+.base-section .base-section__content
+{
+    box-sizing: border-box;
+    max-width: 1366px;
+    margin: 0 auto;
+
+    padding: 20px 35px;
+}
+
+.base-section .base-section__caption{
+    font-family: PlayfairDisplay-Bold; 
+    text-align: center; 
+    font-size: 30px; 
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.base-section .base-section__signature
+{
+    font-family: Intro Script; 
+    font-size: 28px; 
+    margin: 10px 0;
+}
+
+.base-section--highlighted
+{
+    background: linear-gradient(#f55359, #dd2d37);
+}
+
+@media (min-width: 950px)
+{
+    
+    .base-section .base-section__caption
+    {
+        text-align: left;
+        width: 230px;
+        font-size: 40px;
+    }
+    .base-section .base-section__signature
+    {
+        font-size: 46px;
+    }
+    
+    .base-section--highlighted
+    {
+        background: linear-gradient(#ea3c43, #d82833);
+    }
+}

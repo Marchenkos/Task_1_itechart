@@ -1,8 +1,9 @@
-.header-container__navigation
+.navigation-box
 {
-    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
 }
-.navigation-box__button
+.navigation-box .navigation-box__button-hamburger
 {
     font-size: 20px;  border: none;  background: white;
 }
@@ -12,25 +13,20 @@
     display: block;  text-align: center;
 }
 
-.navigation-box__navigation-menu
+.navigation-box .navigation-box__navigation-menu
 {
     position: absolute;  top: 0;  left: 0;  display: none;  width: 100%;  text-align: center;
 }
-.navigation-box
-{
-    /* line-height: 2; */
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 @media (min-width: 950px)
 {
-    .navigation-box__navigation-menu
+    .navigation-box .navigation-box__navigation-menu
     {
         position: relative;  display: block;
     }
 
-    .navigation-box__button
+    .navigation-box .navigation-box__button-hamburger
     {
         display: none;
     }

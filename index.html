@@ -5,66 +5,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
 
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/fonts/icomoon/style.css"/>
-
-        <link rel="stylesheet" type="text/css" href="css/fonts.css" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <link rel="stylesheet" type="text/css" href="css/base-section.css" />
-        <link rel="stylesheet" type="text/css" href="css/social-networks-icons.css" />
-
-
-
-
-        <link rel="stylesheet" type="text/css" href="css/header-container/header-container.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container/logo.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container/navigation-box.css" />
-        <link rel="stylesheet" type="text/css" href="css/header-container//menu.css" />
-
-        <link rel="stylesheet" type="text/css" href="css/header-container/phone-number.css" />
-
-        <link rel="stylesheet" type="text/css" href="css/hero-section/hero-section.css" />
-        <link rel="stylesheet" type="text/css" href="css/hero-section/list-of-advantages.css" />
-        <link rel="stylesheet" type="text/css" href="css/hero-section/selection-button.css" />
-
-
-        <link rel="stylesheet" type="text/css" href="css/main-section/main-section.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-section/grid.css" />
-        <link rel="stylesheet" type="text/css" href="css/main-section/cake-element.css" />
-
-
-        <link rel="stylesheet" type="text/css" href="css/order-section/instruction-list.css">
-        <link rel="stylesheet" type="text/css" href="css/order-section/order-section.css" />
+        <link rel="stylesheet" type="text/css" href="styles/base-section.css" />
+        <link rel="stylesheet" type="text/css" href="styles/block-for-feedback.css" />
+        <link rel="stylesheet" type="text/css" href="styles/cake-element.css" />
+        <link rel="stylesheet" type="text/css" href="styles/contact-information.css" />
+        <link rel="stylesheet" type="text/css" href="styles/contact-section.css" />
+        <link rel="stylesheet" type="text/css" href="styles/feedback-tools.css" />
+        <link rel="stylesheet" type="text/css" href="styles/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="styles/footer-container.css" />
+        <link rel="stylesheet" type="text/css" href="styles/grid.css" />
+        <link rel="stylesheet" type="text/css" href="styles/header.css" />
+        <link rel="stylesheet" type="text/css" href="styles/hero-section.css" />
+        <link rel="stylesheet" type="text/css" href="styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="styles/instruction-list.css" />
+        <link rel="stylesheet" type="text/css" href="styles/list-of-advantages.css" />
+        <link rel="stylesheet" type="text/css" href="styles/logo.css" />
+        <link rel="stylesheet" type="text/css" href="styles/main-section.css" />
+        <link rel="stylesheet" type="text/css" href="styles/menu.css" />
+        <link rel="stylesheet" type="text/css" href="styles/navigation-box.css" />
+        <link rel="stylesheet" type="text/css" href="styles/order-section.css" />
+        <link rel="stylesheet" type="text/css" href="styles/phone-number.css" />
+        <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles/selection-button.css" />
+        <link rel="stylesheet" type="text/css" href="styles/social-networks-icons.css" />
+        <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/page.css" />
+      
 
 
-        <link rel="stylesheet" type="text/css" href="css/contact-section/contact-section.css" />
-        <link rel="stylesheet" type="text/css" href="css/contact-section/block-for-feedback.css" />
-        <link rel="stylesheet" type="text/css" href="css/contact-section/feedback-tools.css" />
-        <link rel="stylesheet" type="text/css" href="css/contact-section/contact-information.css" />
-
-        <link rel="stylesheet" type="text/css" href="css/footer-container/footer-container.css" />
     </head>
 <body>
+
 <div class="page">
     
-    <header class="header-container">
+    <header class="header base-section">
 
-        <div class="header-container-content base-section-content">
+        <div class="header__content base-section__content">
 
-            <div class="header-container__logo">
-                <a class="logo" href="#home">
+            <div class="header__logo-container">
+                <a class="logo" href="/">
                     Cakes
                 </a>  
             </div>
                 
-            <div class="header-container__navigation">
+            <div class="header__navigation-container">
 
                 <nav class="navigation-box">
 
-                    <button class="icon-menu navigation-box__button"></button>
+                    <button class="icon-menu navigation-box__button-hamburger"></button>
                 
                     <div class="navigation-box__navigation-menu">
                         <ul class="menu">
+                            <!-- Ссылки КУДА! -->
                             <li class="menu__item"><a class="menu__item-link" href="#">Наши торты</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">Индивидуальный заказ</a></li>
                             <li class="menu__item"><a class="menu__item-link" href="#">Отзывы</a></li>
@@ -76,7 +68,8 @@
                 </nav>  
             </div>
             
-            <div class="header-container__phone">
+            <div class="header__phone-container">
+                <!-- Придумать нормальный модификатор -->
                 <a  href="tel:+79068999296" class="phone-number phone-number--bg-none">
                     +7 906 899 92 96
                 </a> 
@@ -85,15 +78,17 @@
     
     </header> 
             
-    <main сlass="main-container">              
-        <article class="hero-section">
-            <div class="hero-section-content base-section-content">
- 
+    <main сlass="main">     
+
+        <article class="hero-section base-section">
+
+            <div class="hero-section__content base-section__content">
+ <!-- Что-то не так с заголовками -->
                 <div class="hero-section_titles">
                     <h1 class="hero-section__caption">Торты на заказ</h1>
                     <h3 class="hero-section__signature">Ручная работа</h3>
                 </div>
-                        
+                        <!-- Подумать насчет именования ячеек -->
                 <div class="hero-section__list">
                 
                     <ul class="list-of-advantages">
@@ -109,7 +104,8 @@
     
                 </div>
     
-                <div class="hero-section__button">
+                <div class="hero-section__button-container">
+
                     <button class="selection-button">Выбрать торт</button>
                 
                 </div>
@@ -119,8 +115,9 @@
         </article>   
                     
             
-        <article class="cake-catalog">
-            <div class="cake-catalog-content base-section-content">
+        <article class="cake-catalog base-section">
+
+            <div class="cake-catalog__content base-section__content">
            
                 <h1 class="cake-catalog__caption base-section__caption">Наши торты</h1>
                 
@@ -129,44 +126,64 @@
                     <div class="grid">
     
                         <div class="grid__col-8-12">
+                            
                             <div class="cake-element cake-element--singl">
-                                    <img class="cake-element__picture " src="css/img/catalog-cake/cake-1.jpg">
-                                <h2 class="cake-element__title">Классические <p class="cake-element__mini-title">12 видов</p></h2>
+
+                                <img class="cake-element__picture " src="img/cake-1.jpg">
+                                <h2 class="cake-element__title">Классические </h2>
+                                <p class="cake-element__mini-title">12 видов</p>
+
                             </div>
+
                         </div>
     
                         <div class="grid__col-4-12">
                             
                             <div class="cake-element">
-                                <img class="cake-element__picture" src="css/img/catalog-cake/cake-3.jpg">
+
+                                <img class="cake-element__picture" src="img/cake-3.jpg">
                                 <h2 class="cake-element__title">Муссовые <p class="cake-element__mini-title">12 видов</p></h2>
+
                             </div>
     
-                            <div class="cake-element ">
-                                <img class="cake-element__picture" src="css/img/catalog-cake/cake-4.jpg">
+                            <div class="cake-element">
+
+                                <img class="cake-element__picture" src="img/cake-4.jpg">
                                 <h2 class="cake-element__title">Свадебные <p class="cake-element__mini-title">16 видов</p></h2>
+
                             </div>
                         </div>
                     </div>
     
                         <div class="grid">
+
                         <div class="grid__col-4-12">
+
                             <div class="cake-element ">
-                                <img class="cake-element__picture" src="css/img/catalog-cake/cake-5.jpg"   >
+
+                                <img class="cake-element__picture" src="img/cake-5.jpg"   >
                                 <h2 class="cake-element__title">Мужчинам <p class="cake-element__mini-title">12 видов</p></h2>
+
                             </div>
     
                             <div class="cake-element">
-                                <img class="cake-element__picture" src="css/img/catalog-cake/cake-6.jpg">
+
+                                <img class="cake-element__picture" src="img/cake-6.jpg">
                                 <h2 class="cake-element__title">Женщинам <p class="cake-element__mini-title">16 видов</p></h2>
+
                             </div>
+
                         </div>
     
                         <div class="grid__col-8-12">
+
                             <div class="cake-element cake-element--singl">
-                                <img class="cake-element__picture " src="css/img/catalog-cake/cake-2.jpg">
+
+                                <img class="cake-element__picture " src="img/cake-2.jpg">
                                 <h2 class="cake-element__title">Детские <p class="cake-element__mini-title">24 вида</p></h2>
+
                             </div>
+
                         </div>
                     
                     </div>
@@ -175,31 +192,32 @@
         
         </article>
             
-        <article class="order-section base-section base-section--HIGHLIGHTED">
+        <article class="order-section base-section base-section--highlighted">
             
-            <div class="order-section-content base-section-content">
+            <div class="order-section__content base-section__content">
                 
                 <h1 class="order-section__caption base-section__caption ">Как заказать</h1>
               
                 <section class="order-section__delivery-conditions">
 
                     
-                    
+                    <!-- Попробовать через нумерованный список -->
                     <ul class="instruction-list">
     
                         <li class="instruction-list__item">
                             <div class="item__number">1</div>
-                            <div class="item__description"><h2 class="item__description--bold">Срок заказа </h2>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</div>
-                            </li>
+                            <div class="item__description"><h2 class="item__description--caption">Срок заказа </h2><p>Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.</p></div>
+                        </li>
 
                         <li class="instruction-list__item">
                             <div class="item__number">2</div>
-                            <div class="item__description"><h2 class="item__description--bold">Доставка по городу</h2>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</div>
+                            <!-- Нужен ли нейминг для параграфа -->
+                            <div class="item__description"><h2 class="item__description--caption">Доставка по городу</h2><p>Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.</p></div>
                         </li>
 
                         <li class="instruction-list__item">
                             <div class="item__number">3</div>
-                            <div class="item__description"><h2 class="item__description--bold">Доставка за городом</h2>Доставка за пределами города рассчитывается индивидуально.</div>
+                            <div class="item__description"><h2 class="item__description--caption">Доставка за городом</h2><p>Доставка за пределами города рассчитывается индивидуально.</p></div>
                         </li>
                     </ul>
 
@@ -210,53 +228,56 @@
                 
         <article class="contact-section base-section">
 
-            <div class="contact-section-content base-section-content">
+            <div class="contact-section__content base-section__content">
   
-                <h1 class="contact-section__caption base-section__caption ">Контакты</h1>
-                <h2 class="contact-section__signature base-section__signature">Остались вопросы?</h2>
-                 
-                <section class="contact-section__form">
-    
-                    <div class="block-for-feedback">
-    
-                        <div class="feedback-tools">
-                            <div class="feedback-tools__callback-condition">Заполните форму ниже и наш кондитер свяжется с Вами</div>
-                            <form class="feedback-tools__callback-form">
+            <h1 class="contact-section__caption base-section__caption ">Контакты</h1>
+                
+                 <!-- ячейка для грида -->
+                <section class="contact-section__feedback-tools">
+                                
+                    <div class="grid">
+
+                        <div class="grid__col-6-12">
+                            
+                            <form class="callback-form">
+
+                                <h2 class="callback-form__signature">Остались вопросы?</h2>
+                                <div class="callback-form__condition">Заполните форму ниже и наш кондитер свяжется с Вами</div>
                                 <input class="callback-form__contact-data" type="text" placeholder="Ваше имя">
                                 <input class="callback-form__contact-data" type="email" placeholder="Email адрес">
-                                
                                 <textarea class="callback-form__contact-data callback-form__contact-data--lots-infomations" placeholder="Ваш вопрос"></textarea>
 
-                                <div class="contact-section__button">
-                                        <button class="selection-button selection-button--width">Отправить</button>
-                                    </div>
-                
+                                <div class="callback-form__button-container">
+                                    <button class="selection-button selection-button--width">Отправить</button>
+                                </div>
+
                             </form>
                         </div>
-    
-                        
-                        <div class="contact-information">
-                            <ul class="contact-information__contact-list">
-                                <li class="contact-list__item">Или позвоните по телефону  <a href="tel:+79068999296" class="phone-number">
-                                        +7 906 899 92 96
-                                    </a>
-                                </li>
-                                <li class="contact-list__item">Наша почта: bakerybypavel@mail.ru </li>
-                                <li class="contact-list__item">Мы в соц сетях:</li>
+
+                        <div class="grid__col-6-12">
+
+                            <div class="contact-information">
+                                <ul class="contact-information__contact-list">
+                                    <li class="contact-list__item">Или позвоните по телефону  <a href="tel:+79068999296" class="phone-number">
+                                            +7 906 899 92 96
+                                        </a>
+                                    </li>
+
+                                    <li class="contact-list__item">Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></li>
+                                    
+                                    <li class="contact-list__item"><p>Мы в соц сетях:</p>
+                                        <div class="social-networks-icons">
+                                            <a href="#" class="icon-instagram social-networks-icons__icon "></a> 
+                                            <a href="#" class="icon-vk social-networks-icons__icon"></a> 
+                                        </div>
+                                    </li>
+                                    
                                 </ul>
-                            
-                            <div class="contact-information__icon">
-                                <div class="social-networks-icons social-networks-icons--bg-pink">
-                                    <a href="#" class="icon-instagram social-networks-icons__icon "></a> 
-                                    <a href="#" class="icon-vk social-networks-icons__icon"></a> 
-                                </div>
                             </div>
                         </div>
                     </div>
-    
                 </section>
-
-            </div>
+            </div>      
         </article>
                 
     </main>        
@@ -271,7 +292,7 @@
 
             <div class="footer-container__navigation">
                 
-                <ul class="menu menu--highlighter">
+                <ul class="menu menu--highlighted">
                     <li class="menu__item"><a class="menu__item-link" href="#">Наши торты</a></li>
                     <li class="menu__item"><a class="menu__item-link" href="#">Индивидуальный заказ</a></li>
                     <li class="menu__item"><a class="menu__item-link" href="#">Отзывы</a></li>

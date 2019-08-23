@@ -4,35 +4,36 @@
     display: flex;  flex-direction: column;  background: white;
 }
 
-.menu__item
+.menu .menu__item
 {
     border-bottom: 1px solid #dadada;
 }
 
-.menu__item-link
+.menu .menu__item-link
 {
     display: block;  padding: 20px;  cursor: pointer;  text-decoration: none;  color: grey;
 }
 
 
 
-.menu--highlighter
+.menu--highlighted
 {
     text-align: left;  background: none;
 }
 
-.menu--highlighter .menu__item
+.menu--highlighted .menu__item
 {
     border: none;
 }
 
 
-.menu--highlighter .menu__item .menu__item-link
+.menu--highlighted .menu__item .menu__item-link
 {
     padding: 9px 0;  color: white;
 }
 
 @media (max-width: 950px){
+
     .menu__item:hover
     {
     background: rgb(223, 221, 221);
@@ -56,13 +57,13 @@
     {
         flex-direction: row;  background: none;
     }
-    .menu--highlighter
+    .menu--highlighted
     {
         justify-content: space-around;         max-width: 800px;
         margin: 0 auto;
     }
 
-    .menu--highlighter .menu__item .menu__item-link
+    .menu--highlighted .menu__item .menu__item-link
     {
         font-size: 16px;
 

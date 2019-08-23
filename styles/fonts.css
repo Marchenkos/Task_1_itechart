@@ -1,0 +1,17 @@
+@font-face
+{
+    font-family: PlayfairDisplay-Bold;  src: url(../fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff);
+}
+
+@font-face
+{
+    font-family: Intro Script;  src: url(../fonts/IntroScriptB-Base/IntroScriptB-Base.woff);
+}
+@font-face
+{
+    font-family: Circe-Regular;  src: url(../fonts/Circe/Circe-Regular.woff);
+}
+@font-face
+{
+    font-family: Circe-Regular;  font-weight: bold;     src: url(../fonts/Circe/Circe-Bold.woff);
+}
