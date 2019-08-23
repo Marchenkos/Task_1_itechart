@@ -1,24 +1,19 @@
-.logo{
-    font-family: PlayfairDisplay-Bold;
-    font-size: 18px;
-    text-decoration: none;
-    color:rgb(39, 39, 39);
+.logo
+{
+    font-family: PlayfairDisplay-Bold;  font-size: 18px;  text-decoration: none;  color: rgb(39, 39, 39);
+}
+.logo:active{
+color: gray;
+}
+.logo--white
+{
+    font-size: 35px;  color: white;
 }
 
-.logo--white{
-    color:white;
-    font-size: 35px;
-}
-
-@media (min-width: 950px) {
- 
-    .logo--white{
-        font-size: 27px;
-        letter-spacing: 1.5px;
-        line-height: 0;
-        vertical-align: sub;
-        color:rgb(51, 51, 51);
+@media (min-width: 950px)
+{
+    .logo--white
+    {
+        font-size: 27px;  line-height: 0;  vertical-align: sub;  letter-spacing: 1.5px;  color: rgb(51, 51, 51);
     }
-
-  
 }

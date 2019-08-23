@@ -1,0 +1,22 @@
+{
+  "name": "task_1_itechart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marchenkos/Task_1_itechart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marchenkos/Task_1_itechart/issues"
+  },
+  "homepage": "https://github.com/Marchenkos/Task_1_itechart#readme",
+  "dependencies": {
+    "csscomb": "^4.3.0"
+  }
+}

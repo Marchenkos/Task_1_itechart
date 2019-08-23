@@ -1,28 +1,31 @@
-.social-networks-icons__icon{
-      text-decoration: none;
+.social-networks-icons__icon
+{
+    text-decoration: none;
 }
 
-.social-networks-icons--bg-gray .social-networks-icons__icon{
-    color: #afafaf;
-    font-size: 25px;
+.social-networks-icons--bg-gray .social-networks-icons__icon
+{
+    font-size: 25px;  color: #afafaf;
 }
-.social-networks-icons--bg-pink .social-networks-icons__icon{
-    color: black;
-    font-size: 40px;
+.social-networks-icons--bg-pink .social-networks-icons__icon
+{
+    font-size: 40px;  color: black;
 }
 
-.social-networks-icons .social-networks-icons__icon:last-child{
+.social-networks-icons .social-networks-icons__icon:last-child
+{
     margin: 0 15px;
 }
 
 
-@media (min-width: 950px) {
-    .social-networks-icons--bg-gray .social-networks-icons__icon:first-child{
+@media (min-width: 950px)
+{
+    .social-networks-icons--bg-gray .social-networks-icons__icon:first-child
+    {
         margin: 0 15px;
     }
-    .social-networks-icons--bg-gray .social-networks-icons__icon:last-child{
+    .social-networks-icons--bg-gray .social-networks-icons__icon:last-child
+    {
         margin: 0;
     }
-    
 }
-    

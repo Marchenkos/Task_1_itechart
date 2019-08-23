@@ -1,18 +1,19 @@
-.contact-information__social-networks-icons{
-    font-size: 25px;
-    margin: 20px 0;
+.contact-information__social-networks-icons
+{
+    font-size: 25px;  margin: 20px 0;
 }
 
 
-.contact-list__item{
-    font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 20px;
+.contact-list__item
+{
+    font-size: 20px;  line-height: 1.2;  margin-bottom: 20px;
 }
 
 
-@media (min-width: 950px) {
-    .contact-information{
+@media (min-width: 950px)
+{
+    .contact-information
+    {
         flex-basis: 40%;
     }
 }

@@ -1,38 +1,35 @@
 
-.contact-section-content{
+.contact-section-content
+{
     padding: 50px 35px 20px;
 }
-.contact-section__signature{
-    font-family: Intro Script;
-    font-size: 28px;
-    margin:10px 0px;
-    color: #313131;
-    text-align: left;
+.contact-section__signature
+{
+    font-family: Intro Script;  font-size: 28px;  margin: 10px 0;  text-align: left;     color: #313131;
 }
 
-@media (min-width: 950px) {
-
-    .contact-section__button{
+@media (min-width: 950px)
+{
+    .contact-section__button
+    {
         order: 1;
     }
-    .feedback-tools{
+    .feedback-tools
+    {
+        flex-basis: 50%;  padding-right: 25px;
+    }
+
+    .contact-information
+    {
         flex-basis: 50%;
-        padding-right: 25px;
+    }
+    .contact-section__signature
+    {
+        font-size: 46px;  margin: 40px 0 20px;
     }
 
-    .contact-information{
-        flex-basis: 50%; 
-    }
-    .contact-section__signature{
-        margin: 40px 0 20px;
-        font-size: 46px;
-    }
-
-    .contact-section-content{
-        background-image: url(../img/strawb.png);
-        background-repeat: no-repeat;
-        background-size: 1000px;
-        background-position: left 350px bottom -15px;
-        padding: 40px 35px 300px;
+    .contact-section-content
+    {
+        padding: 40px 35px 300px;  background-image: url(../img/strawb.png);  background-repeat: no-repeat;  background-position: left 350px bottom -15px;  background-size: 1000px;
     }
 }

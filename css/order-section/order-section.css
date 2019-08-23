@@ -1,21 +1,22 @@
-.order-section__delivery-conditions{
-    color:white;
+.order-section__delivery-conditions
+{
+    color: white;
 }
-.order-section-content{
-    background-image: url(../img/order.jpg);
-    background-repeat: no-repeat;
-    background-size: 400px;
+.order-section-content
+{
     padding: 39px 35px 290px;
-    background-position: right 50% top 400px;
+
+    background-image: url(../img/order.jpg);  background-repeat: no-repeat;  background-position: right 50% top 400px;     background-size: 400px;
 }
 
-.order-section{
+.order-section
+{
     background: linear-gradient(#e3353d, #d3252f);
 }
-@media (min-width: 950px) {
-    .order-section-content{
-        background-size: 800px;
-        padding: 40px 60px 60px 0;
-        background-position: left -55px top -50px;
-    }  
+@media (min-width: 950px)
+{
+    .order-section-content
+    {
+        padding: 40px 60px 60px 0;  background-position: left -55px top -50px;  background-size: 800px;
+    }
 }

@@ -1,65 +1,69 @@
-.footer-container-content{
-    padding: 40px 35px 10px;
-    display: flex;
-    flex-direction: column;
+.footer-container-content
+{
+    display: flex;  flex-direction: column;  padding: 40px 35px 10px;
 }
-.footer-container{
-    background: #999999;
+.footer-container
+{
+    background: #999;
 }
-.footer-container__navigation{
+.footer-container__navigation
+{
     margin: 40px 0 20px;
 }
 
-.footer-container__line{
-    border: 1px solid #a3a3a3;
-    width: 100%;
+.footer-container__line
+{
+    width: 100%;  border: 1px solid #a3a3a3;
 }
-.footer-container__copy{
-    font-size: 13px;
-    margin: 10px auto;
-    color:#b1b0b0;
+.footer-container__copy
+{
+    font-size: 13px;  margin: 10px auto;  color: #b1b0b0;
 }
 
-.phone-number--white{
-    text-decoration: none;
+.phone-number--white
+{
     cursor: pointer;
-    color: white;
+    text-decoration: none;  color: white;
 }
 
-.footer-container__icon{
-    margin:20px 0;
+.footer-container__icon
+{
+    margin: 20px 0;
 }
-.footer-container__logo{
-   width:100px;
+.footer-container__logo
+{
+    width: 100px;
 }
 
-@media (min-width: 950px) {
-    .footer-container-content{
+@media (min-width: 950px)
+{
+    .footer-container-content
+    {
+        align-items: center;  flex-direction: row;  flex-wrap: wrap;         padding: 40px 35px 0;
+
         background: none;
-        align-items: center;
-        padding: 40px 35px 0px;
-        flex-direction: row;
-        flex-wrap: wrap;
     }
-    .footer-container{
+    .footer-container
+    {
         background: #e8e8e8;
     }
 
-    .footer-container__navigation{
-        flex-grow: 2;
-        margin: 0;
+    .footer-container__navigation
+    {
+        flex-grow: 2;  margin: 0;
     }
 
-    .footer-container__phone{
+    .footer-container__phone
+    {
         display: none;
     }
-    .footer-container__icon{
+    .footer-container__icon
+    {
         margin: 0;
     }
 
-    .footer-container__line{
-        margin-top: 27px;
-        border: 0.7px solid #c9c9c9;
-    } 
- 
+    .footer-container__line
+    {
+        margin-top: 27px;  border: .7px solid #c9c9c9;
+    }
 }

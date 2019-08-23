@@ -1,67 +1,87 @@
 
-.menu {
-    background:white;
-    display:flex;
-    flex-direction: column;
+.menu
+{
+    display: flex;  flex-direction: column;  background: white;
 }
 
-.menu__item{
-    border-bottom: 1px solid #DADADA;
+.menu__item
+{
+    border-bottom: 1px solid #dadada;
 }
 
-.menu__item-link {
-    
-    padding: 20px;
-    text-decoration: none;
-    cursor: pointer;
-    color:grey;
-    display: block;
-}
-
-.menu--bg-gray{
-    background: none;
-    text-align: left;
-}
-
-.menu--bg-gray .menu__item{
-    border:none;
-}
-
-.menu--bg-gray .menu__item .menu__item-link {
-
-    padding: 9px 0px;
-    color:white;
-  
+.menu__item-link
+{
+    display: block;  padding: 20px;  cursor: pointer;  text-decoration: none;  color: grey;
 }
 
 
-@media (min-width: 950px) {
-    .menu {
-        background:none;
-        flex-direction: row;
+
+.menu--bg-gray
+{
+    text-align: left;  background: none;
+}
+
+.menu--bg-gray .menu__item
+{
+    border: none;
+}
+
+
+.menu--bg-gray .menu__item .menu__item-link
+{
+    padding: 9px 0;  color: white;
+}
+
+@media (max-width: 950px){
+    .menu__item:hover
+    {
+    background: rgb(223, 221, 221);
     }
-    .menu--bg-gray{
+    .menu__item:active
+    {
+    background: rgb(189, 187, 187);
+    }
+    .menu__item:hover .menu__item-link
+    {
+        color: white;
+    }
+}
+@media (min-width: 950px)
+{
+    .menu__item:active .menu__item-link
+    {
+        color:rgba(207, 0, 0, 0.863);
+    }
+    .menu
+    {
+        flex-direction: row;  background: none;
+    }
+    .menu--bg-gray
+    {
+        justify-content: space-around;         max-width: 800px;
         margin: 0 auto;
-        max-width: 800px;
-        justify-content: space-around;
     }
 
-    .menu--bg-gray .menu__item .menu__item-link {
-        padding: 0px;
+    .menu--bg-gray .menu__item .menu__item-link
+    {
         font-size: 16px;
-        text-transform: inherit;
-        color:rgb(51, 51, 51);
+
+        padding: 0;  text-transform: inherit;  color: rgb(51, 51, 51);
     }
-    .menu__item{
-        border:none; 
+    .menu__item
+    {
+        border: none;
     }
-   
-    .menu__item-link {
-        text-transform: uppercase;
+
+    .menu__item-link
+    {
         font-size: 11px;
         line-height: initial;
+
         padding: 0 10px;
-        color:rgb(29, 28, 28);
+
+        text-transform: uppercase;
+
+        color: rgb(29, 28, 28);
     }
-   
 }

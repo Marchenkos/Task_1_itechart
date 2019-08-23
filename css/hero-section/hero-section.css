@@ -1,62 +1,46 @@
-.hero-section-content{
-    background-image: url(../img/main-cake-2.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: left 0px bottom 300px;
-    padding: 150px 35px 10px;
-    text-align: center;
+.hero-section-content
+{
+    padding: 150px 35px 10px;  text-align: center;  background-image: url(../img/main-cake-2.png);  background-repeat: no-repeat;  background-position: left 0 bottom 300px;  background-size: 100%;
 }
 
-.hero-section__list{
-    order:1;
-    width:300px;
-    margin:20px auto;
+.hero-section__list
+{
+    order: 1;  width: 300px;  margin: 20px auto;
 }
-.hero-section__caption{
-    font-family: PlayfairDisplay-Bold;
-    letter-spacing: 5px;
-    font-size: 45px;
-    width: 230px;
-    margin:0 auto;
-    color:#222222;
+.hero-section__caption
+{
+    font-family: PlayfairDisplay-Bold;  font-size: 45px;  width: 230px;  margin: 0 auto;  letter-spacing: 5px;  color: #222;
 }
-.hero-section__signature{
-    font-family: Intro Script;
-    font-size: 28px;
-    margin: 20px 0;
-    color: #313131;
+.hero-section__signature
+{
+    font-family: Intro Script;  font-size: 28px;  margin: 20px 0;  color: #313131;
 }
 
-.hero-section__button{
+.hero-section__button
+{
     margin-top: 40px;
 }
 
-@media (min-width: 950px) {
-
-    .hero-section-content{  
-        display: flex;
-        flex-direction: column;
-        background: url(../img/main-cake.png) left 550px top 0 no-repeat,
-                        url(../img/ilustr/strawb1.png) left 350px top 346px no-repeat,
-                        url(../img/ilustr/strawb2.png) left 530px top -36px no-repeat,
-                        url(../img/ilustr/flower.png) left 460px top 210px no-repeat;
-            
-        background-size: 900px, 250px, 180px, 150px;
-        text-align: left;
-        padding: 150px 35px 180px;
+@media (min-width: 950px)
+{
+    .hero-section-content
+    {
+        display: flex;  flex-direction: column;  padding: 150px 35px 180px;         text-align: left;  background: url(../img/main-cake.png) left 550px top 0 no-repeat,
+        url(../img/ilustr/strawb1.png) left 350px top 346px no-repeat,
+        url(../img/ilustr/strawb2.png) left 530px top -36px no-repeat,
+        url(../img/ilustr/flower.png) left 460px top 210px no-repeat;  background-size: 900px, 250px, 180px, 150px;
     }
 
-    .hero-section__caption{
-        font-size: 70px;
-        margin: 10px 0;
-        width: 350px;
+    .hero-section__caption
+    {
+        font-size: 70px;  width: 350px;         margin: 10px 0;
     }
-    .hero-section__list{
-     
-       margin:0;
+    .hero-section__list
+    {
+        margin: 0;
     }
-    .hero-section__signature{
-        font-size: 30px;      
-        width: 300px;
+    .hero-section__signature
+    {
+        font-size: 30px;  width: 300px;
     }
 }
