@@ -1,38 +1,41 @@
 .instruction-list
 {
-    display: flex;  align-items: flex-end;  flex-direction: column;
+    counter-reset:li;
+    list-style:none;
 }
-.item__number
-{
-    font-family: PlayfairDisplay-Bold;  font-size: 43px;  line-height: 1.7;     float: left;  margin-right: 16px;
-}
-.instruction-list__item
+
+.instruction-list .instruction-list__item
 {
     margin: 10px auto;
 }
-.item__description--bold
-{
-    font-weight: bold;  margin-bottom: 10px;
+.instruction-list .instruction-list__item::before{
+    content:counter(li); 
+    counter-increment:li; 
+    float: left;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 45px;
+    line-height: 1;
 }
-.item__description
+
+
+  .instruction-list__item .item__description
+    {
+        font-size: 18px;
+        margin-left: 40px;
+    }
+
+.instruction-list__item .item__description--caption
 {
-    width: 295px;  text-align: left;
-}
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 20px;
+} 
+
 @media (min-width: 950px)
 {
-    .item__description
-    {
-        font-size: 21px;
 
-        width: 300px;  margin-left: 55px;
-    }
-
-    .instruction-list__item
+    .instruction-list .instruction-list__item::before
     {
-        margin: 0 0 25px 0;
-    }
-    .item__number
-    {
-        font-size: 60px;  line-height: 1;
+        font-size: 63px;
     }
 }

@@ -1,0 +1,16 @@
+
+.cake-catalog-section__list
+{
+    margin-top:20px;
+}
+@media (min-width: 950px)
+{
+    .cake-catalog-section__caption
+{
+    text-align: left;
+}
+.cake-catalog-section__list
+{
+    margin-top:40px;
+}
+}

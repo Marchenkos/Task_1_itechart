@@ -2,24 +2,24 @@
 {
     font-size: 25px;
     text-decoration: none;
-    color: rgb(39, 39, 39);
+    color: #272727;
     line-height: 1.23;
     display: inline-block;
     vertical-align: bottom;
     font-family: PlayfairDisplay-Bold;
 }
 .logo:active{
-color: gray;
+color: #808080;
 }
-.logo--white
+.logo--lighter
 {
-    font-size: 35px;  color: white;
+    font-size: 40px;  color: #ffffff;
 }
 
 @media (min-width: 950px)
 {
-    .logo--white
+    .logo--lighter
     {
-        font-size: 27px;  line-height: 0;  vertical-align: sub;  letter-spacing: 1.5px;  color: rgb(51, 51, 51);
+        font-size: 27px;  letter-spacing: 1.5px;  color: #333333;
     }
 }

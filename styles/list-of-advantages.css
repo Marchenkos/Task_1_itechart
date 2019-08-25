@@ -2,18 +2,18 @@
 {
     font-size: 19px;  display: flex;  flex-direction: column;  text-align: left;
 }
-.list-of-advantages__advantag
+.list-of-advantages .list-of-advantages__advantag
 {
     margin-top: 10px;
     
 }
-.advantag__icon
+.list-of-advantages__advantag .advantag__icon
 {
     float: left;  width: 51px;  margin-right: 10px;
 }
-.advantag__signature
+.list-of-advantages__advantag .advantag__signature
 {
-    margin-top: 15px;  color: rgb(29, 29, 29);
+    margin-top: 15px;  color: #1d1d1d;
 }
 
 @media (min-width: 950px)
@@ -24,16 +24,16 @@
         flex-direction: row;
         margin-top: 150px;
     }
-    .list-of-advantages__advantag
+    .list-of-advantages .list-of-advantages__advantag
     {
         margin: 0;
         flex-basis: 45%;
     }
-    .advantag__icon
+    .list-of-advantages__advantag .advantag__icon
     {
         float: left;  width: 45px;         margin-right: 7px;
     }
-    .advantag__signature
+    .list-of-advantages__advantag .advantag__signature
     {
         font-size: 15px;
         font-weight: bold;
@@ -41,6 +41,6 @@
      
         margin-top: 5px;
         text-align: left;
-        color: rgb(29, 29, 29);
+        color: #1d1d1d;
     }
 }

@@ -1,0 +1,26 @@
+.contact-link
+{
+    font-size: 20px;  cursor: pointer;  text-decoration: none;  color: #2c2c2c;
+}
+.contact-link:active{
+    color: #f3eded;
+}
+
+.contact-link--lighter
+{
+    cursor: pointer;
+    text-decoration: none;  
+    color: #ffffff;
+}
+
+@media (min-width: 950px)
+{
+    .contact-link--darker
+    {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .contact-link:active{
+        color: #979595;
+    }
+}

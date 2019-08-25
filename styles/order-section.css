@@ -1,34 +1,44 @@
-.order-section__delivery-conditions
+.order-section .order-section__delivery-conditions
 {
-    color: white;
+    color: #ffffff;
+    margin: 0 auto;
+    max-width: 310px;
 }
 
-.order-section-content
+.order-section .order-section__content
 {
     padding: 39px 35px 290px;
-
-    background-image: url(../img/order.jpg);  background-repeat: no-repeat;  background-position: right 50% top 400px;     background-size: 400px;
+    background-image: url(../img/order.jpg);
+    background-repeat: no-repeat;
+    background-position: right 50% top 400px;
+    background-size: 400px;
 }
 
 
-.order-section__caption
+.order-section .order-section__caption
 {
-    margin-bottom: 50px; color: white;
+    margin-bottom: 20px;
+    color: #ffffff;
 }
 
 
 @media (min-width: 950px)
 {
-    .order-section-content
+    .order-section .order-section__content
     {
-        padding: 40px 60px 60px 0;  background-position: left -55px top -50px;  background-size: 800px;
+        padding: 40px 35px 60px 585px;
+        background-position: left -65px bottom -165px;
+        background-size: 800px;
     }
-           
-    .order-section__caption
+    .order-section .order-section__delivery-conditions
+{
+  
+    max-width: 360px;
+}
+  
+    .order-section .order-section__caption
     {
-         text-align: right;
-         /* margin: 0; */
-         margin-right: 125px;
-         /* width: 250px; */
+         width: 350px;
+         margin: 0 auto 50px;
     }
 }

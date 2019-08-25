@@ -5,7 +5,12 @@
 }
 .navigation-box .navigation-box__button-hamburger
 {
-    font-size: 20px;  border: none;  background: white;
+    font-size: 20px;  border: none;  background: #ffffff;
+}
+
+.navigation-box .navigation-box__navigation-menu
+{
+    position: absolute;  top: 0;  left: 0;  display: none;  width: 100%;  text-align: center;
 }
 
 .navigation-box:hover .navigation-box__navigation-menu
@@ -13,10 +18,6 @@
     display: block;  text-align: center;
 }
 
-.navigation-box .navigation-box__navigation-menu
-{
-    position: absolute;  top: 0;  left: 0;  display: none;  width: 100%;  text-align: center;
-}
 
 
 @media (min-width: 950px)

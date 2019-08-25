@@ -1,0 +1,61 @@
+.callback-form .callback-form__contact-data{
+    margin: 5px ;
+    height: 50px;
+    width: 90%;
+    border: none;
+    padding: 0 10px;
+}
+.callback-form .callback-form__contact-data::placeholder{
+    color:#e4e3e3;
+}
+.callback-form__contact-data--lots-infomations{
+    height: 100px;
+    padding-top:10px;
+}
+
+.callback-form .callback-form__condition{
+    font-size: 18px;
+    margin-bottom:20px
+}
+
+}
+.callback-form__button-container{
+    width:180px;
+    margin: 30px auto;
+}
+
+
+@media (min-width: 950px) {
+   
+
+    .callback-form .callback-form__contact-data:focus{
+        border: 2px solid #cecece;
+    }
+   
+    .callback-form .callback-form__condition{
+        font-size: 20px;
+    }
+   
+    .callback-form .callback-form__contact-data{
+        margin-bottom: 5px;
+        font-size: 14px;
+        background: none;
+        box-sizing: border-box;
+        border-bottom: 1px solid #cccccc;
+        padding-top: 29px;
+    }
+    .callback-form .callback-form__button-container
+    {
+        margin: 58px 0 0;
+    }
+    .callback-form .callback-form__contact-data::placeholder{
+        color:#cccccc;
+    }
+    .callback-form .callback-form__contact-data--lots-infomations{
+        height: 50px;
+        font-family: Arial;
+        font-size: 14px;
+    }
+
+  
+}

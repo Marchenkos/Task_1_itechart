@@ -4,23 +4,21 @@
     box-sizing: border-box;
     max-width: 1366px;
     margin: 0 auto;
-
-    padding: 20px 35px;
+    padding: 20px 35px 20px;
 }
 
 .base-section .base-section__caption{
-    font-family: PlayfairDisplay-Bold; 
-    text-align: center; 
-    font-size: 30px; 
-    margin: 0 auto;
+    font-family: PlayfairDisplay-Bold;
+    text-align: center;
+    font-size: 30px;
     letter-spacing: 2px;
 }
 
 .base-section .base-section__signature
 {
-    font-family: Intro Script; 
-    font-size: 28px; 
-    margin: 10px 0;
+    font-family: Intro Script;
+    font-size: 28px;
+    margin-top: 25px;
 }
 
 .base-section--highlighted
@@ -34,12 +32,11 @@
     .base-section .base-section__caption
     {
         text-align: left;
-        width: 230px;
         font-size: 40px;
     }
     .base-section .base-section__signature
     {
-        font-size: 46px;
+        font-size: 29px;
     }
     
     .base-section--highlighted

@@ -1,49 +1,27 @@
 
-.contact-section-content
+.contact-section .contact-section-content
 {
     padding: 50px 35px 20px;
 }
-.contact-section__caption{
+.contact-section .contact-section__caption{
     color: #3d3d3d;
  
 }
-.contact-section__signature
-{
-    font-family: Intro Script;  font-size: 28px;  margin: 10px 0;  width: 280px; text-align: left;     color: #313131;
+.contact-section__feedback-tools{
+  margin-top:20px;
 }
 
 @media (min-width: 950px)
 {
-    .contact-section__caption{
-   
-/* text-align: left; */
-   
-width: 250px;
-   
-margin: 0;
-}
-    .contact-section__button
-    {
-        order: 1;
+    .contact-section__feedback-tools{
+    margin-top: 15px;
     }
-    .feedback-tools
+    .contact-section .contact-section__content
     {
-        flex-basis: 50%;  padding-right: 25px;
-    }
-
-    .contact-information
-    {
-        flex-basis: 50%;
-    }
-    .contact-section__signature
-    {
-        font-size: 35px;
-       
-        margin: 40px 0 20px;
-    }
-
-    .contact-section-content
-    {
-        padding: 40px 35px 300px;  background-image: url(../img/strawb.png);  background-repeat: no-repeat;  background-position: left 350px bottom -15px;  background-size: 1000px;
+        padding: 40px 35px 300px;
+        background-image: url(../img/strawb.png);
+        background-repeat: no-repeat;
+        background-position: left 350px bottom -15px;
+        background-size: 950px;
     }
 }

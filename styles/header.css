@@ -1,6 +1,6 @@
 .header
 {
-    background: white;
+    background: #ffffff;
 }
 .header .header__content
 {
@@ -18,10 +18,6 @@
     margin-right: 15px;
 }
 
-.header .header__navigation-container
-{
-    font-family: Circe-Regular;
-}
 
 .header .header__phone-container
 {
@@ -32,13 +28,10 @@
 {
     .header
     {
-        align-items: flex-end;
-
         padding: 35px 0 20px 0;
-
         background: none;
     }
-    .header__phone-container
+    .header .header__phone-container
     {
         display: block;
         flex-grow: 0;

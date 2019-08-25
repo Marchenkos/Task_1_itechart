@@ -1,6 +1,7 @@
 .page
 {
     position: relative; 
+    font-family: Circe-Regular;
     min-width: 380px; 
     margin: 0 auto;
 }

@@ -1,80 +1,57 @@
 
 .menu
 {
-    display: flex;  flex-direction: column;  background: white;
+    display: flex; 
+    flex-direction: column; 
+    background: #ffffff;
 }
 
 .menu .menu__item
 {
     border-bottom: 1px solid #dadada;
+  
 }
 
 .menu .menu__item-link
 {
-    display: block;  padding: 20px;  cursor: pointer;  text-decoration: none;  color: grey;
+    display: block; 
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #808080;
 }
-
-
 
 .menu--highlighted
 {
-    text-align: left;  background: none;
+    text-align: left;
+    background: none;
 }
 
 .menu--highlighted .menu__item
 {
     border: none;
+
 }
-
-
 .menu--highlighted .menu__item .menu__item-link
-{
-    padding: 9px 0;  color: white;
-}
+    {
+        font-size: 20px;
+        text-transform: inherit;
+        padding: 13px 0;
+        color: #ffffff;
+    }
 
-@media (max-width: 950px){
-
-    .menu__item:hover
-    {
-    background: rgb(223, 221, 221);
-    }
-    .menu__item:active
-    {
-    background: rgb(189, 187, 187);
-    }
-    .menu__item:hover .menu__item-link
-    {
-        color: white;
-    }
-}
 @media (min-width: 950px)
 {
-    .menu__item:active .menu__item-link
-    {
-        color:rgba(207, 0, 0, 0.863);
-    }
     .menu
     {
-        flex-direction: row;  background: none;
+        flex-direction: row; 
+        background: none;
     }
-    .menu--highlighted
-    {
-        justify-content: space-around;         max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .menu--highlighted .menu__item .menu__item-link
-    {
-        font-size: 16px;
-
-        padding: 0;  text-transform: inherit;  color: rgb(51, 51, 51);
-    }
-    .menu__item
+    .menu .menu__item
     {
         border: none;
     }
-
-    .menu__item-link
+    .menu .menu__item-link
     {
         font-size: 11px;
         line-height: initial;
@@ -83,6 +60,26 @@
 
         text-transform: uppercase;
 
-        color: rgb(29, 28, 28);
+        color: #1d1c1c;
     }
+   
+    .menu__item .menu__item-link:active 
+    {
+        color:#cf0000dc;
+    }
+    .menu--highlighted
+    {
+        justify-content: space-around;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .menu--highlighted .menu__item .menu__item-link
+    {
+        font-size: 16px;
+        padding: 0;
+        text-transform: inherit;
+        color: rgb(51, 51, 51);
+    }
+   
 }

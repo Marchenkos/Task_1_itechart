@@ -3,21 +3,21 @@
     position: relative;  overflow: hidden;  height: 200px;  text-align: center;     background: white;
 }
 
-.cake-element__title
+.cake-element .cake-element__title
 {
-    font-size: 19px;  position: absolute;  z-index: 3;  top: 16px;  left: 20px;
+    font-size: 19px;  position: absolute;  z-index: 1;  top: 16px;  left: 20px;
 }
-.cake-element__mini-title
+.cake-element .cake-element__title--mini
 {
-    font-size: 16px;  margin-top: 5px;  text-align: left;  color: rgb(95, 95, 95);
+    font-size: 16px;  position: absolute; z-index: 1; top: 45px;  left: 20px;color: rgb(95, 95, 95);
 }
-.cake-element__picture
+.cake-element .cake-element__picture
 {
-    position: relative;  z-index: 2;  max-width: 300px;
+    position: relative;  max-width: 300px;
 }
-.grid__col-4-12 .cake-element:first-child
-{
-    margin-bottom: 40px;
+
+.cake-element{
+    margin-top:40px
 }
 
 @media (min-width: 950px)
@@ -25,14 +25,15 @@
     .cake-element
     {
         height: 290px;
+        margin-top:0px;
+    }
+    .cake-element .cake-element__picture
+    {
+        max-width: 280px;
     }
     .cake-element--singl
     {
         height: 550px;  padding-top: 70px;
-    }
-    .cake-element__picture
-    {
-        max-width: 280px;
     }
     .cake-element--singl .cake-element__picture
     {
