@@ -9,14 +9,14 @@
 .logo:active{
 color: #808080;
 }
-.logo--lighter
+.logo.logo--light
 {
     font-size: 40px;  color: #ffffff;
 }
 
 @media (min-width: 950px)
 {
-    .logo--lighter
+    .logo.logo--light
     {
         font-size: 27px;  letter-spacing: 1.5px;  color: #333333;
     }

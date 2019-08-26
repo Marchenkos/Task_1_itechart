@@ -22,18 +22,7 @@
 }
 
 
-  .instruction-list__item .item__description
-    {
-        font-size: 18px;
-        margin-left: 40px;
-    }
-
-.instruction-list__item .item__description--caption
-{
-    font-weight: bold;
-    margin-bottom: 10px;
-    padding-top: 20px;
-} 
+ 
 
 @media (min-width: 950px)
 {

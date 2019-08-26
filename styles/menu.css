@@ -21,18 +21,18 @@
     color: #808080;
 }
 
-.menu--highlighted
+.menu.menu--highlighted
 {
     text-align: left;
     background: none;
 }
 
-.menu--highlighted .menu__item
+.menu.menu--highlighted .menu__item
 {
     border: none;
 
 }
-.menu--highlighted .menu__item-link
+.menu.menu--highlighted .menu__item-link
     {
         font-size: 20px;
         text-transform: inherit;
@@ -70,17 +70,17 @@
         color:#cf0000dc;
         background: none;
     }
-    .menu--highlighted  .menu__item .menu__item-link:active 
+    .menu.menu--highlighted  .menu__item .menu__item-link:active 
     {
         color:#928f8fdc;
     }
-    .menu--highlighted
+    .menu.menu--highlighted
     {
         justify-content: space-around;
      
     }
 
-    .menu--highlighted .menu__item .menu__item-link
+    .menu.menu--highlighted .menu__item .menu__item-link
     {
         font-size: 16px;
         padding: 0;

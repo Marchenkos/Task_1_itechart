@@ -1,0 +1,12 @@
+
+.description{
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.description .description__caption
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-top: 20px;
+} 

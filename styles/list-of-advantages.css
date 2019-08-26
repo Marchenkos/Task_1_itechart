@@ -7,11 +7,11 @@
     margin-top: 10px;
     
 }
-.list-of-advantages__advantag .advantag__icon
+.list-of-advantages__advantag .list-of-advantages__advantag-icon
 {
     float: left;  width: 51px;  margin-right: 10px;
 }
-.list-of-advantages__advantag .advantag__signature
+.list-of-advantages__advantag .list-of-advantages__advantag-signature
 {
     margin-top: 15px;  color: #1d1d1d;
 }
@@ -28,13 +28,13 @@
         margin: 0;
         flex-basis: 45%;
     }
-    .list-of-advantages__advantag .advantag__icon
+    .list-of-advantages__advantag .list-of-advantages-advantagicon
     {
         float: left;
         width: 45px;
         margin-right: 7px;
     }
-    .list-of-advantages__advantag .advantag__signature
+    .list-of-advantages__advantag .list-of-advantages__advantag-signature
     {
         font-size: 15px;
         font-weight: bold;

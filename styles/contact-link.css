@@ -6,14 +6,14 @@
     color: #f3eded;
 }
 
-.contact-link--lighter
+.contact-link.contact-link--light
 {  
     color: #ffffff;
 }
 
 @media (min-width: 950px)
 {
-    .contact-link--darker
+    .contact-link.contact-link--dark
     {
         font-size: 12px;
         font-weight: bold;

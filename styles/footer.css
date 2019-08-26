@@ -25,7 +25,7 @@
 
 .footer .footer__icon-container
 {
-    margin: 20px 0;
+    margin: 40px 0 10px;
 }
 
 
@@ -54,6 +54,7 @@
     {
         display: none;
     }
+    
     .footer .footer__icon-container
     {
         margin: 0;

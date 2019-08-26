@@ -21,7 +21,7 @@
     margin-top: 22px;
 }
 
-.base-section--highlighted
+.base-section.base-section--highlighted
 {
     background: linear-gradient(#f55359, #dd2d37);
 }
@@ -39,7 +39,7 @@
         font-size: 29px;
     }
     
-    .base-section--highlighted
+    .base-section.base-section--highlighted
     {
         background: linear-gradient(#ea3c43, #d82833);
     }
