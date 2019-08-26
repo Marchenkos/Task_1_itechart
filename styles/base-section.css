@@ -4,7 +4,7 @@
     box-sizing: border-box;
     max-width: 1366px;
     margin: 0 auto;
-    padding: 20px 35px 20px;
+    padding: 40px 35px 20px;
 }
 
 .base-section .base-section__caption{
@@ -17,8 +17,8 @@
 .base-section .base-section__signature
 {
     font-family: Intro Script;
-    font-size: 28px;
-    margin-top: 25px;
+    font-size: 25px;
+    margin-top: 22px;
 }
 
 .base-section--highlighted

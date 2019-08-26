@@ -1,11 +1,11 @@
 
 
-.contact-information__item
+.contact-information .contact-information__item
 {
     font-size: 20px;  line-height: 1.2;  margin-bottom: 20px;
 }
 
-.contact-information__item:last-child{
+.contact-information .contact-information__item:last-child{
     margin-bottom:0;
 }
 

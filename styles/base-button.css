@@ -2,7 +2,6 @@
 {
     font-size: 17px;
     width: 290px;
-    cursor: pointer;
     height: 70px;
     text-align: center;
     color: #ffffff;
@@ -26,6 +25,10 @@ color: #d8d5d5;
 {
     .base-button
     {
-        font-size: 13px;  width: 200px;  height: 50px;  text-transform: uppercase;  border-radius: 50px;
+        font-size: 13px;
+        width: 200px;
+        cursor: pointer;
+        height: 50px;
+       
     }
 }

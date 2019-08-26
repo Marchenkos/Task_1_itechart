@@ -22,7 +22,6 @@
     {
         display: flex;
         flex-direction: row;
-        margin-top: 150px;
     }
     .list-of-advantages .list-of-advantages__advantag
     {
@@ -31,16 +30,15 @@
     }
     .list-of-advantages__advantag .advantag__icon
     {
-        float: left;  width: 45px;         margin-right: 7px;
+        float: left;
+        width: 45px;
+        margin-right: 7px;
     }
     .list-of-advantages__advantag .advantag__signature
     {
         font-size: 15px;
         font-weight: bold;
         line-height: 17px;
-     
         margin-top: 5px;
-        text-align: left;
-        color: #1d1d1d;
     }
 }

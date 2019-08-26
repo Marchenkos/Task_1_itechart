@@ -1,6 +1,11 @@
 .hero-section .hero-section__content
 {
-    padding: 150px 35px 10px;  text-align: center;  background-image: url(../img/main-cake-2.png);  background-repeat: no-repeat;  background-position: left 0 bottom 300px;  background-size: 100%;
+    padding: 150px 35px 20px;
+    text-align: center;
+    background-image: url(../img/main-cake-2.png);
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 300px;
+    background-size: 100%;
 }
 .hero-section .hero-section__caption
 {
@@ -8,7 +13,10 @@
 }
 .hero-section .hero-section__signature
 {
-    font-family: Intro Script;  font-size: 28px;  margin: 20px 0;  color: #313131;
+    font-family: Intro Script;
+    font-size: 28px;
+    margin: 20px 0;
+    color: #313131;
 }
 .hero-section .hero-section__list
 {
@@ -28,7 +36,7 @@ width: 320px;
     {
         display: flex;
         flex-direction: column;
-        padding: 150px 35px 180px;
+        padding: 150px 45% 180px 36px;
         text-align: left;
         background: url(../img/main-cake.png) left 550px top 0 no-repeat,
         url(../img/ilustr/strawb1.png) left 350px top 346px no-repeat,
@@ -44,11 +52,13 @@ width: 320px;
         margin: 10px 0;
     }
     .hero-section .hero-section__list
-    {    width: 483px;
-        margin: 0;
+    {
+        width: 483px;
+        margin: 150px 0 0 0;
     }
     .hero-section .hero-section__signature
     {
-        font-size: 30px;  width: 300px;
+        font-size: 30px;
+        /* width: 300px; */
     }
 }

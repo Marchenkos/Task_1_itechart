@@ -32,12 +32,17 @@
     border: none;
 
 }
-.menu--highlighted .menu__item .menu__item-link
+.menu--highlighted .menu__item-link
     {
         font-size: 20px;
         text-transform: inherit;
         padding: 13px 0;
         color: #ffffff;
+    }
+    .menu__item .menu__item-link:active 
+    {
+        color:#e6e3e3dc;
+        background: #868686;
     }
 
 @media (min-width: 950px)
@@ -55,23 +60,24 @@
     {
         font-size: 11px;
         line-height: initial;
-
         padding: 0 15px;
-
         text-transform: uppercase;
-
         color: #1d1c1c;
     }
    
     .menu__item .menu__item-link:active 
     {
         color:#cf0000dc;
+        background: none;
+    }
+    .menu--highlighted  .menu__item .menu__item-link:active 
+    {
+        color:#928f8fdc;
     }
     .menu--highlighted
     {
         justify-content: space-around;
-        max-width: 800px;
-        margin: 0 auto;
+     
     }
 
     .menu--highlighted .menu__item .menu__item-link
@@ -79,7 +85,7 @@
         font-size: 16px;
         padding: 0;
         text-transform: inherit;
-        color: rgb(51, 51, 51);
+        color: #333333;
     }
    
 }

@@ -12,35 +12,30 @@
 {
     flex-basis: 100%;
     box-sizing:border-box;
+     padding-right: 20px;
 }
 
-.grid--catalog [class^='grid__col-']
-{
-    padding-right: 0px;
-}
+
 .grid--catalog .grid__col-4-12 .cake-element:first-child
 {
     margin-bottom: 40px;
 } 
 
 @media screen and (min-width: 950px)
-{.grid--catalog{
+{
+    .grid--catalog{
   margin-bottom: 40px;
 
 }
-.grid [class^='grid__col-']
+.grid--catalog [class^='grid__col-']
 {
-    padding-right: 20px;
+    padding-right: 40px;
 }
 .grid [class^='grid__col-']:last-child
 {
    padding-right: 0px;
 }
-.grid--catalog [class^='grid__col-']
-{
- padding-bottom: 0px; 
 
-}
 .grid--catalog:last-child{
     margin-bottom: 0px;
   
@@ -55,15 +50,13 @@
     }
     .grid .grid__col-8-12
     {
-        flex-basis: 58.33%;  
+        flex-basis: 59.2%;  
     }
   
 
     .grid--catalog:not(.grid--catalog:last-child){
         margin: 0px 0px 40px;
     }
-    .grid--catalog [class^='grid__col-']:nth-child(odd){
-        padding-right: 40px;
-    }
+   
     
 }

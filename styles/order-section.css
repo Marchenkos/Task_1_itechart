@@ -7,7 +7,7 @@
 
 .order-section .order-section__content
 {
-    padding: 39px 35px 290px;
+    padding: 40px 35px 290px;
     background-image: url(../img/order.jpg);
     background-repeat: no-repeat;
     background-position: right 50% top 400px;
@@ -26,19 +26,18 @@
 {
     .order-section .order-section__content
     {
-        padding: 40px 35px 60px 585px;
+        padding: 80px 35px 100px 585px;
         background-position: left -65px bottom -165px;
         background-size: 800px;
     }
     .order-section .order-section__delivery-conditions
 {
-  
-    max-width: 360px;
+  max-width: 360px;
 }
   
     .order-section .order-section__caption
     {
          width: 350px;
-         margin: 0 auto 50px;
+         margin: 0 auto 30px;
     }
 }

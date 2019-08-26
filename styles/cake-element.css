@@ -1,6 +1,13 @@
 .cake-element
 {
-    position: relative;  overflow: hidden;  height: 200px;  text-align: center;     background: white;
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    text-align: center;
+    background: white;
+
+    margin-top:40px
+
 }
 
 .cake-element .cake-element__title
@@ -9,16 +16,13 @@
 }
 .cake-element .cake-element__title--mini
 {
-    font-size: 16px;  position: absolute; z-index: 1; top: 45px;  left: 20px;color: rgb(95, 95, 95);
+    font-size: 16px;  position: absolute; z-index: 1; top: 45px;  left: 20px;color: #5f5f5f;
 }
 .cake-element .cake-element__picture
 {
     position: relative;  max-width: 300px;
 }
 
-.cake-element{
-    margin-top:40px
-}
 
 @media (min-width: 950px)
 {

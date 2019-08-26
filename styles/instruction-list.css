@@ -6,7 +6,11 @@
 
 .instruction-list .instruction-list__item
 {
-    margin: 10px auto;
+    margin: 0 auto 20px;
+}
+.instruction-list .instruction-list__item:last-child
+{
+    margin: 0 auto;
 }
 .instruction-list .instruction-list__item::before{
     content:counter(li); 
